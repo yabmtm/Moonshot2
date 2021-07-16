@@ -1,0 +1,36 @@
+----------------------------------------
+Begin Batch Job Prologue Fri Jul 16 02:55:09 EDT 2021
+Job ID:           925763
+Username:         tug27224
+Group:            chem
+Job Name:         test_Ee.pf
+Resources List:   nodes=1:ppn=28,walltime=48:00:00,neednodes=1:ppn=28
+Queue:            normal
+Account:          
+Nodes:            b161 
+----------------------------------------
+End Batch Job Prologue Fri Jul 16 02:55:10 EDT 2021
+----------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+----------------------------------------
+Begin Batch Job Epilogue Fri Jul 16 03:02:19 EDT 2021
+Job ID:           925763
+Username:         tug27224
+Group:            chem
+Job Name:         test_Ee.pf
+Session:          14673
+Limits:           nodes=1:ppn=28,walltime=48:00:00,neednodes=1:ppn=28
+Resources:        cput=03:17:20,vmem=15212164kb,walltime=00:07:10,mem=1594168kb,energy_used=0
+Queue:            normal
+Account:          
+Deleting /dev/shm/*...
+----------------------------------------
+End Batch Job Epilogue Fri Jul 16 03:02:40 EDT 2021
+----------------------------------------

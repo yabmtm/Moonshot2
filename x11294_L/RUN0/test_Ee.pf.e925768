@@ -1,0 +1,62 @@
+                      :-) GROMACS - mdrun_mpi, 2018.8 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      mdrun_mpi, version 2018.8
+Executable:   /gpfs/opt/apps/gromacs-2018.8/bin/mdrun_mpi
+Data prefix:  /gpfs/opt/apps/gromacs-2018.8
+Working dir:  /work/tug27224/MOON2/projects/x11294_L/RUN0
+Command line:
+  mdrun_mpi -maxh 47 -s prod.tpr
+
+Compiled SIMD: SSE4.1, but for this host/run AVX2_256 might be better (see
+log).
+The current CPU can measure timings more accurately than the code in
+mdrun_mpi was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding mdrun_mpi with the GMX_USE_RDTSCP=ON CMake option.
+Reading file prod.tpr, VERSION 2018.8 (single precision)
+
+Multiple energy groups is not implemented for GPUs, falling back to the CPU. For better performance, run on the GPU without energy groups and then do gmx mdrun -rerun option on the trajectory with an energy group .tpr file.
+Changing nstlist from 10 to 25, rlist from 0.935 to 1.044
+
+
+Will use 18 particle-particle and 10 PME only ranks
+This is a guess, check the performance at the end of the log file
+
+-------------------------------------------------------
+Program:     mdrun_mpi, version 2018.8
+Source file: src/gromacs/domdec/domdec.cpp (line 6594)
+MPI rank:    0 (out of 28)
+
+Fatal error:
+There is no domain decomposition for 18 ranks that is compatible with the
+given box and a minimum cell size of 0.531816 nm
+Change the number of ranks or mdrun option -rdd or -dds
+Look in the log file for details on the domain decomposition
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------

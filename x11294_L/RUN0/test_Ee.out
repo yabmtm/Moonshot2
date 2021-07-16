@@ -1,0 +1,39 @@
+----------------------------------------
+Begin Batch Job Prologue Fri Jul 16 02:59:39 EDT 2021
+Job ID:           925768
+Username:         tug27224
+Group:            chem
+Job Name:         test_Ee.pf
+Resources List:   nodes=1:ppn=28,walltime=48:00:00,neednodes=1:ppn=28
+Queue:            normal
+Account:          
+Nodes:            b109 
+----------------------------------------
+End Batch Job Prologue Fri Jul 16 02:59:40 EDT 2021
+----------------------------------------
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[16093,1],15]
+  Exit code:    1
+--------------------------------------------------------------------------
+----------------------------------------
+Begin Batch Job Epilogue Fri Jul 16 02:59:47 EDT 2021
+Job ID:           925768
+Username:         tug27224
+Group:            chem
+Job Name:         test_Ee.pf
+Session:          9476
+Limits:           nodes=1:ppn=28,walltime=48:00:00,neednodes=1:ppn=28
+Resources:        cput=00:00:32,vmem=0kb,walltime=00:00:08,mem=0kb,energy_used=0
+Queue:            normal
+Account:          
+Deleting /dev/shm/*...
+----------------------------------------
+End Batch Job Epilogue Fri Jul 16 03:00:08 EDT 2021
+----------------------------------------

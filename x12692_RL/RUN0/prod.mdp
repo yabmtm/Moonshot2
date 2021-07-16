@@ -1,0 +1,129 @@
+;       generated from expanded_ensemble_mdpfile() on Thu Jul 15 23:50:11 2021 
+;
+;
+; Run control
+integrator               = md-vv
+tinit                    = 0
+dt                       = 0.004
+nsteps                   = 250000       ; 1 ns
+comm-mode                = Linear
+nstcomm                  = 1
+
+; Output control
+nstlog                   = 250          ; every 1 ps
+nstcalcenergy            = 1
+nstenergy                = 25000        ; save edr every 100 ps
+nstxout-compressed       = 25000        ; save xtc coordinates every 100 ps
+nstxout                  = 250000       ; save coordinates every 1 ns
+nstvout                  = 250000       ; save velocities every 1 ns
+compressed-x-precision   = 1000
+
+; This selects the subset of atoms for the .xtc file. You can
+; select multiple groups. By default all atoms will be written.
+compressed-x-grps        = Protein LIG
+
+; Selection of energy groups
+energygrps               = Protein non-Protein
+; Neighborsearching and short-range nonbonded interactions
+nstlist                  = 10
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 0.9
+
+; Electrostatics
+cutoff-scheme            = verlet
+coulombtype              = PME
+rcoulomb                 = 0.9
+
+; van der Waals
+vdw-type                 = Cut-off
+vdw-modifier             = Potential-switch
+rvdw-switch              = 0.89      ;    0.9
+rvdw                     = 0.9
+
+; Apply long range dispersion corrections for Energy and Pressure 
+; NO -- we're doing NVT
+; DispCorr                 = EnerPres
+
+fourierspacing           = 0.10
+pme_order                = 4
+ewald_rtol               = 1e-6
+ewald_geometry           = 3d
+epsilon_surface          = 0
+
+
+; Temperature coupling
+tcoupl                   = v-rescale
+nsttcouple               = 1
+tc_grps                  = System
+tau_t                    = 0.5
+ref_t                    = 298.15
+; Pressure coupling is on for NPT - we're doing NVT
+pcoupl                   = no
+
+; velocity generation
+gen_vel                  = yes
+gen-temp                 = 298.15
+gen-seed                 = 10609 ; need to randomize the seed each time.
+
+; options for bonds
+constraints              = h-bonds  ; we only have C-H bonds here
+; Type of constraint algorithm
+constraint-algorithm     = lincs
+; Highest order in the expansion of the constraint coupling matrix
+lincs-order              = 12
+lincs-iter               = 2
+
+
+; FREE ENERGY CONTROL OPTIONS =
+free-energy   	        = expanded
+calc-lambda-neighbors 	= -1
+sc-alpha 		= 0.5    ;     0.5 
+sc-power 		= 1      ;     keep this at 1 
+sc-sigma 	        = 0.3    ;     0.5
+couple-moltype 		= LIG  ; ligand mol type
+couple-lambda0 		= vdw-q
+couple-lambda1 		= none
+couple-intramol 	= yes
+init-lambda-state	= 0
+
+nstexpanded             = 250   ; trying exchanges every 1 ps
+nstdhdl                 = 250   ; dhdl snaps every 1 ps   <-- BINGO these must be set the same
+dhdl-print-energy 	= total
+nst-transition-matrix 	= 250000
+
+lmc-seed                = 10609 ; should be randomized
+lmc-gibbsdelta          = -1 ; print all energies
+symmetrized-transition-matrix = yes
+
+lmc-stats                       = wang-landau
+lmc-move                        = metropolized-gibbs
+lmc-weights-equil               = wl-delta
+weight-equil-wl-delta           = 0.00001
+init-wl-delta                   = 10.0   ; in units kT -  MRS had 10.0 at first
+separate-dhdl-file              = yes
+wl-scale                        = 0.8
+wl-ratio                        = 0.7
+
+coul-lambdas         = 0.00000 0.02500 0.05000 0.07500 0.10000 0.12500 0.15000 0.17500 0.20000 0.22500 0.25000 0.27500 0.30000 0.32500 0.35000 0.37500 0.40000 0.42500 0.45000 0.47500 0.50000 0.52500 0.55000 0.57500 0.60000 0.62500 0.65000 0.67500 0.70000 0.72500 0.75000 0.77500 0.80000 0.82500 0.85000 0.87500 0.90000 0.92500 0.95000 0.97500 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000
+vdw-lambdas          = 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.02500 0.05000 0.07500 0.10000 0.12500 0.15000 0.17500 0.20000 0.22500 0.25000 0.27500 0.30000 0.32500 0.35000 0.37500 0.40000 0.42500 0.45000 0.47500 0.50000 0.52500 0.55000 0.57500 0.60000 0.62500 0.65000 0.67500 0.70000 0.72500 0.75000 0.77500 0.80000 0.82500 0.85000 0.87500 0.90000 0.92500 0.95000 0.97500 1.00000
+fep-lambdas          = 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+restraint-lambdas    = 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000
+init-lambda-weights  = 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+
+; 
+; pulling parameters
+pull                     = umbrella
+pull_ngroups             = 2
+pull_ncoords             = 1
+pull_group1_name         = a1-Protein
+pull_group2_name         = a2-Ligand
+pull-geometry            = distance     
+pull_coord1_groups       = 1 2
+pull-dim                 = Y Y Y
+pull_coord1_rate         = 0.00
+pull_coord1_k            = 800.0
+pull-start               = no
+pull-coord1-init         = 0.4082228533941946
+pull-nstxout             = 250   ; 1 ps
+pull-nstfout             = 250   ; 1 ps

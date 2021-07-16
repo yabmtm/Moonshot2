@@ -1,0 +1,514 @@
+Log file opened on Fri Jul 16 02:59:46 2021
+Host: b109  pid: 9591  rank ID: 0  number of ranks:  28
+                      :-) GROMACS - mdrun_mpi, 2018.8 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      mdrun_mpi, version 2018.8
+Executable:   /gpfs/opt/apps/gromacs-2018.8/bin/mdrun_mpi
+Data prefix:  /gpfs/opt/apps/gromacs-2018.8
+Working dir:  /work/tug27224/MOON2/projects/x11294_L/RUN0
+Command line:
+  mdrun_mpi -maxh 47 -s prod.tpr
+
+GROMACS version:    2018.8
+Precision:          single
+Memory model:       64 bit
+MPI library:        MPI
+OpenMP support:     enabled (GMX_OPENMP_MAX_THREADS = 64)
+GPU support:        disabled
+SIMD instructions:  SSE4.1
+FFT library:        fftw-3.3.3-sse2
+RDTSCP usage:       disabled
+TNG support:        enabled
+Hwloc support:      hwloc-1.11.8
+Tracing support:    disabled
+Built on:           2020-05-12 00:23:04
+Built by:           install@login1 [CMAKE]
+Build OS/arch:      Linux 3.10.0-957.12.1.el7.x86_64 x86_64
+Build CPU vendor:   Intel
+Build CPU brand:    Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz
+Build CPU family:   6   Model: 79   Stepping: 1
+Build CPU features: aes apic avx avx2 clfsh cmov cx8 cx16 f16c fma hle htt intel lahf mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp rtm sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic
+C compiler:         /gpfs/opt/base/openmpi-2.1.1/bin/mpicc GNU 4.8.5
+C compiler flags:    -msse4.1     -O3 -DNDEBUG -funroll-all-loops -fexcess-precision=fast  
+C++ compiler:       /gpfs/opt/base/openmpi-2.1.1/bin/mpicxx GNU 4.8.5
+C++ compiler flags:  -msse4.1    -std=c++11   -O3 -DNDEBUG -funroll-all-loops -fexcess-precision=fast  
+
+
+Running on 1 node with total 28 cores, 28 logical cores
+Hardware detected on host b109 (the node of MPI rank 0):
+  CPU info:
+    Vendor: Intel
+    Brand:  Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
+    Family: 6   Model: 79   Stepping: 1
+    Features: aes apic avx avx2 clfsh cmov cx8 cx16 f16c fma hle htt intel lahf mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp rtm sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic
+  Hardware topology: Full, with devices
+    Sockets, cores, and logical processors:
+      Socket  0: [   0] [   2] [   4] [   6] [   8] [  10] [  12] [  14] [  16] [  18] [  20] [  22] [  24] [  26]
+      Socket  1: [   1] [   3] [   5] [   7] [   9] [  11] [  13] [  15] [  17] [  19] [  21] [  23] [  25] [  27]
+    Numa nodes:
+      Node  0 (67285057536 bytes mem):   0   2   4   6   8  10  12  14  16  18  20  22  24  26
+      Node  1 (67642810368 bytes mem):   1   3   5   7   9  11  13  15  17  19  21  23  25  27
+      Latency:
+               0     1
+         0  1.00  2.10
+         1  2.10  1.00
+    Caches:
+      L1: 32768 bytes, linesize 64 bytes, assoc. 8, shared 1 ways
+      L2: 262144 bytes, linesize 64 bytes, assoc. 8, shared 1 ways
+      L3: 36700160 bytes, linesize 64 bytes, assoc. 20, shared 14 ways
+    PCI devices:
+      0000:01:00.0  Id: 15b3:1013  Class: 0x0207  Numa: 0
+      0000:08:00.0  Id: 102b:0534  Class: 0x0300  Numa: 0
+      0000:00:1f.2  Id: 8086:8d02  Class: 0x0106  Numa: 0
+      0000:81:00.0  Id: 8086:10fb  Class: 0x0200  Numa: 1
+      0000:81:00.1  Id: 8086:10fb  Class: 0x0200  Numa: 1
+
+Highest SIMD level requested by all nodes in run: AVX2_256
+SIMD instructions selected at compile time:       SSE4.1
+This program was compiled for different hardware than you are running on,
+which could influence performance.
+The current CPU can measure timings more accurately than the code in
+mdrun_mpi was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding mdrun_mpi with the GMX_USE_RDTSCP=ON CMake option.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+M. J. Abraham, T. Murtola, R. Schulz, S. Páll, J. C. Smith, B. Hess, E.
+Lindahl
+GROMACS: High performance molecular simulations through multi-level
+parallelism from laptops to supercomputers
+SoftwareX 1 (2015) pp. 19-25
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Páll, M. J. Abraham, C. Kutzner, B. Hess, E. Lindahl
+Tackling Exascale Software Challenges in Molecular Dynamics Simulations with
+GROMACS
+In S. Markidis & E. Laure (Eds.), Solving Software Challenges for Exascale 8759 (2015) pp. 3-27
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Pronk, S. Páll, R. Schulz, P. Larsson, P. Bjelkmar, R. Apostolov, M. R.
+Shirts, J. C. Smith, P. M. Kasson, D. van der Spoel, B. Hess, and E. Lindahl
+GROMACS 4.5: a high-throughput and highly parallel open source molecular
+simulation toolkit
+Bioinformatics 29 (2013) pp. 845-54
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+B. Hess and C. Kutzner and D. van der Spoel and E. Lindahl
+GROMACS 4: Algorithms for highly efficient, load-balanced, and scalable
+molecular simulation
+J. Chem. Theory Comput. 4 (2008) pp. 435-447
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+D. van der Spoel, E. Lindahl, B. Hess, G. Groenhof, A. E. Mark and H. J. C.
+Berendsen
+GROMACS: Fast, Flexible and Free
+J. Comp. Chem. 26 (2005) pp. 1701-1719
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+E. Lindahl and B. Hess and D. van der Spoel
+GROMACS 3.0: A package for molecular simulation and trajectory analysis
+J. Mol. Mod. 7 (2001) pp. 306-317
+-------- -------- --- Thank You --- -------- --------
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+H. J. C. Berendsen, D. van der Spoel and R. van Drunen
+GROMACS: A message-passing parallel molecular dynamics implementation
+Comp. Phys. Comm. 91 (1995) pp. 43-56
+-------- -------- --- Thank You --- -------- --------
+
+
+The number of OpenMP threads was set by environment variable OMP_NUM_THREADS to 1
+
+Multiple energy groups is not implemented for GPUs, falling back to the CPU. For better performance, run on the GPU without energy groups and then do gmx mdrun -rerun option on the trajectory with an energy group .tpr file.
+Input Parameters:
+   integrator                     = md-vv
+   tinit                          = 0
+   dt                             = 0.004
+   nsteps                         = -1
+   init-step                      = 0
+   simulation-part                = 1
+   comm-mode                      = Linear
+   nstcomm                        = 1
+   bd-fric                        = 0
+   ld-seed                        = -1901889747
+   emtol                          = 10
+   emstep                         = 0.01
+   niter                          = 20
+   fcstep                         = 0
+   nstcgsteep                     = 1000
+   nbfgscorr                      = 10
+   rtpi                           = 0.05
+   nstxout                        = 2500000
+   nstvout                        = 2500000
+   nstfout                        = 0
+   nstlog                         = 2500
+   nstcalcenergy                  = 1
+   nstenergy                      = 250000
+   nstxout-compressed             = 250000
+   compressed-x-precision         = 1000
+   cutoff-scheme                  = Verlet
+   nstlist                        = 10
+   ns-type                        = Grid
+   pbc                            = xyz
+   periodic-molecules             = false
+   verlet-buffer-tolerance        = 0.005
+   rlist                          = 0.935
+   coulombtype                    = PME
+   coulomb-modifier               = Potential-shift
+   rcoulomb-switch                = 0
+   rcoulomb                       = 0.9
+   epsilon-r                      = 1
+   epsilon-rf                     = inf
+   vdw-type                       = Cut-off
+   vdw-modifier                   = Potential-switch
+   rvdw-switch                    = 0.89
+   rvdw                           = 0.9
+   DispCorr                       = No
+   table-extension                = 1
+   fourierspacing                 = 0.1
+   fourier-nx                     = 36
+   fourier-ny                     = 36
+   fourier-nz                     = 36
+   pme-order                      = 4
+   ewald-rtol                     = 1e-06
+   ewald-rtol-lj                  = 0.001
+   lj-pme-comb-rule               = Geometric
+   ewald-geometry                 = 0
+   epsilon-surface                = 0
+   implicit-solvent               = No
+   gb-algorithm                   = Still
+   nstgbradii                     = 1
+   rgbradii                       = 1
+   gb-epsilon-solvent             = 80
+   gb-saltconc                    = 0
+   gb-obc-alpha                   = 1
+   gb-obc-beta                    = 0.8
+   gb-obc-gamma                   = 4.85
+   gb-dielectric-offset           = 0.009
+   sa-algorithm                   = Ace-approximation
+   sa-surface-tension             = 2.05016
+   tcoupl                         = V-rescale
+   nsttcouple                     = 1
+   nh-chain-length                = 0
+   print-nose-hoover-chain-variables = false
+   pcoupl                         = No
+   pcoupltype                     = Isotropic
+   nstpcouple                     = -1
+   tau-p                          = 1
+   compressibility (3x3):
+      compressibility[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      compressibility[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      compressibility[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   ref-p (3x3):
+      ref-p[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      ref-p[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      ref-p[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   refcoord-scaling               = No
+   posres-com (3):
+      posres-com[0]= 0.00000e+00
+      posres-com[1]= 0.00000e+00
+      posres-com[2]= 0.00000e+00
+   posres-comB (3):
+      posres-comB[0]= 0.00000e+00
+      posres-comB[1]= 0.00000e+00
+      posres-comB[2]= 0.00000e+00
+   QMMM                           = false
+   QMconstraints                  = 0
+   QMMMscheme                     = 0
+   MMChargeScaleFactor            = 1
+qm-opts:
+   ngQM                           = 0
+   constraint-algorithm           = Lincs
+   continuation                   = false
+   Shake-SOR                      = false
+   shake-tol                      = 0.0001
+   lincs-order                    = 12
+   lincs-iter                     = 2
+   lincs-warnangle                = 30
+   nwall                          = 0
+   wall-type                      = 9-3
+   wall-r-linpot                  = -1
+   wall-atomtype[0]               = -1
+   wall-atomtype[1]               = -1
+   wall-density[0]                = 0
+   wall-density[1]                = 0
+   wall-ewald-zfac                = 3
+   pull                           = false
+   awh                            = false
+   rotation                       = false
+   interactiveMD                  = false
+   disre                          = No
+   disre-weighting                = Conservative
+   disre-mixed                    = false
+   dr-fc                          = 1000
+   dr-tau                         = 0
+   nstdisreout                    = 100
+   orire-fc                       = 0
+   orire-tau                      = 0
+   nstorireout                    = 100
+   free-energy                    = expanded
+   init-lambda                    = -1
+   init-lambda-state              = 0
+   delta-lambda                   = 0
+   nstdhdl                        = 250
+   n-lambdas                      = 100
+   separate-dvdl:
+       fep-lambdas =   TRUE
+      mass-lambdas =   FALSE
+      coul-lambdas =   TRUE
+       vdw-lambdas =   TRUE
+    bonded-lambdas =   FALSE
+ restraint-lambdas =   FALSE
+temperature-lambdas =   FALSE
+all-lambdas:
+       fep-lambdas =            0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0
+      mass-lambdas =            0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0
+      coul-lambdas =            0        0.02        0.04       0.061       0.081       0.102       0.122       0.142       0.163       0.183       0.204       0.224       0.244       0.265       0.285       0.306       0.326       0.346       0.367       0.387       0.408       0.428       0.448       0.469       0.489        0.51        0.53       0.551       0.571       0.591       0.612       0.632       0.653       0.673       0.693       0.714       0.734       0.755       0.775       0.795       0.816       0.836       0.857       0.877       0.897       0.918       0.938       0.959       0.979           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1           1
+       vdw-lambdas =            0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0        0.02        0.04       0.061       0.081       0.102       0.122       0.142       0.163       0.183       0.204       0.224       0.244       0.265       0.285       0.306       0.326       0.346       0.367       0.387       0.408       0.428       0.448       0.469       0.489        0.51        0.53       0.551       0.571       0.591       0.612       0.632       0.653       0.673       0.693       0.714       0.734       0.755       0.775       0.795       0.816       0.836       0.857       0.877       0.897       0.918       0.938       0.959       0.979           1
+    bonded-lambdas =            0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0
+ restraint-lambdas =            0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0
+temperature-lambdas =            0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0           0
+   calc-lambda-neighbors          = -1
+   dhdl-print-energy              = total
+   sc-alpha                       = 0.5
+   sc-power                       = 1
+   sc-r-power                     = 6
+   sc-sigma                       = 0.3
+   sc-sigma-min                   = 0.3
+   sc-coul                        = false
+   dh-hist-size                   = 0
+   dh-hist-spacing                = 0.1
+   separate-dhdl-file             = yes
+   dhdl-derivatives               = yes
+   nstexpanded                    = 250
+   lmc-stats                      = wang-landau
+   lmc-move                       = metropolized-gibbs
+   lmc-weights-equil              = wl-delta
+   weight-equil-wl-delta          = 1e-05
+   lmc-seed                       = 8307
+   mc-temperature                 = 298.15
+   lmc-repeats                    = 1
+   lmc-gibbsdelta                 = -1
+   lmc-forced-nstart              = 0
+   symmetrized-transition-matrix  = true
+   nst-transition-matrix          = 250000
+   mininum-var-min                = 100
+   weight-c-range                 = 0
+   wl-scale                       = 0.8
+   wl-ratio                       = 0.7
+   init-wl-delta                  = 10
+   wl-oneovert                    = false
+      init-lambda-weights (100):
+      init-lambda-weights[0]= 0.00000e+00
+      init-lambda-weights[1]= 0.00000e+00
+      init-lambda-weights[2]= 0.00000e+00
+      init-lambda-weights[3]= 0.00000e+00
+      init-lambda-weights[4]= 0.00000e+00
+      init-lambda-weights[5]= 0.00000e+00
+      init-lambda-weights[6]= 0.00000e+00
+      init-lambda-weights[7]= 0.00000e+00
+      init-lambda-weights[8]= 0.00000e+00
+      init-lambda-weights[9]= 0.00000e+00
+      init-lambda-weights[10]= 0.00000e+00
+      init-lambda-weights[11]= 0.00000e+00
+      init-lambda-weights[12]= 0.00000e+00
+      init-lambda-weights[13]= 0.00000e+00
+      init-lambda-weights[14]= 0.00000e+00
+      init-lambda-weights[15]= 0.00000e+00
+      init-lambda-weights[16]= 0.00000e+00
+      init-lambda-weights[17]= 0.00000e+00
+      init-lambda-weights[18]= 0.00000e+00
+      init-lambda-weights[19]= 0.00000e+00
+      init-lambda-weights[20]= 0.00000e+00
+      init-lambda-weights[21]= 0.00000e+00
+      init-lambda-weights[22]= 0.00000e+00
+      init-lambda-weights[23]= 0.00000e+00
+      init-lambda-weights[24]= 0.00000e+00
+      init-lambda-weights[25]= 0.00000e+00
+      init-lambda-weights[26]= 0.00000e+00
+      init-lambda-weights[27]= 0.00000e+00
+      init-lambda-weights[28]= 0.00000e+00
+      init-lambda-weights[29]= 0.00000e+00
+      init-lambda-weights[30]= 0.00000e+00
+      init-lambda-weights[31]= 0.00000e+00
+      init-lambda-weights[32]= 0.00000e+00
+      init-lambda-weights[33]= 0.00000e+00
+      init-lambda-weights[34]= 0.00000e+00
+      init-lambda-weights[35]= 0.00000e+00
+      init-lambda-weights[36]= 0.00000e+00
+      init-lambda-weights[37]= 0.00000e+00
+      init-lambda-weights[38]= 0.00000e+00
+      init-lambda-weights[39]= 0.00000e+00
+      init-lambda-weights[40]= 0.00000e+00
+      init-lambda-weights[41]= 0.00000e+00
+      init-lambda-weights[42]= 0.00000e+00
+      init-lambda-weights[43]= 0.00000e+00
+      init-lambda-weights[44]= 0.00000e+00
+      init-lambda-weights[45]= 0.00000e+00
+      init-lambda-weights[46]= 0.00000e+00
+      init-lambda-weights[47]= 0.00000e+00
+      init-lambda-weights[48]= 0.00000e+00
+      init-lambda-weights[49]= 0.00000e+00
+      init-lambda-weights[50]= 0.00000e+00
+      init-lambda-weights[51]= 0.00000e+00
+      init-lambda-weights[52]= 0.00000e+00
+      init-lambda-weights[53]= 0.00000e+00
+      init-lambda-weights[54]= 0.00000e+00
+      init-lambda-weights[55]= 0.00000e+00
+      init-lambda-weights[56]= 0.00000e+00
+      init-lambda-weights[57]= 0.00000e+00
+      init-lambda-weights[58]= 0.00000e+00
+      init-lambda-weights[59]= 0.00000e+00
+      init-lambda-weights[60]= 0.00000e+00
+      init-lambda-weights[61]= 0.00000e+00
+      init-lambda-weights[62]= 0.00000e+00
+      init-lambda-weights[63]= 0.00000e+00
+      init-lambda-weights[64]= 0.00000e+00
+      init-lambda-weights[65]= 0.00000e+00
+      init-lambda-weights[66]= 0.00000e+00
+      init-lambda-weights[67]= 0.00000e+00
+      init-lambda-weights[68]= 0.00000e+00
+      init-lambda-weights[69]= 0.00000e+00
+      init-lambda-weights[70]= 0.00000e+00
+      init-lambda-weights[71]= 0.00000e+00
+      init-lambda-weights[72]= 0.00000e+00
+      init-lambda-weights[73]= 0.00000e+00
+      init-lambda-weights[74]= 0.00000e+00
+      init-lambda-weights[75]= 0.00000e+00
+      init-lambda-weights[76]= 0.00000e+00
+      init-lambda-weights[77]= 0.00000e+00
+      init-lambda-weights[78]= 0.00000e+00
+      init-lambda-weights[79]= 0.00000e+00
+      init-lambda-weights[80]= 0.00000e+00
+      init-lambda-weights[81]= 0.00000e+00
+      init-lambda-weights[82]= 0.00000e+00
+      init-lambda-weights[83]= 0.00000e+00
+      init-lambda-weights[84]= 0.00000e+00
+      init-lambda-weights[85]= 0.00000e+00
+      init-lambda-weights[86]= 0.00000e+00
+      init-lambda-weights[87]= 0.00000e+00
+      init-lambda-weights[88]= 0.00000e+00
+      init-lambda-weights[89]= 0.00000e+00
+      init-lambda-weights[90]= 0.00000e+00
+      init-lambda-weights[91]= 0.00000e+00
+      init-lambda-weights[92]= 0.00000e+00
+      init-lambda-weights[93]= 0.00000e+00
+      init-lambda-weights[94]= 0.00000e+00
+      init-lambda-weights[95]= 0.00000e+00
+      init-lambda-weights[96]= 0.00000e+00
+      init-lambda-weights[97]= 0.00000e+00
+      init-lambda-weights[98]= 0.00000e+00
+      init-lambda-weights[99]= 0.00000e+00
+   init-weights                   = false
+   cos-acceleration               = 0
+   deform (3x3):
+      deform[    0]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    1]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+      deform[    2]={ 0.00000e+00,  0.00000e+00,  0.00000e+00}
+   simulated-tempering            = false
+   swapcoords                     = no
+   userint1                       = 0
+   userint2                       = 0
+   userint3                       = 0
+   userint4                       = 0
+   userreal1                      = 0
+   userreal2                      = 0
+   userreal3                      = 0
+   userreal4                      = 0
+   applied-forces:
+     electric-field:
+       x:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       y:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+       z:
+         E0                       = 0
+         omega                    = 0
+         t0                       = 0
+         sigma                    = 0
+grpopts:
+   nrdf:        7343
+   ref-t:      298.15
+   tau-t:         0.5
+annealing:          No
+annealing-npoints:           0
+   acc:	           0           0           0
+   nfreeze:           N           N           N
+   energygrp-flags[  0]: 0 0
+   energygrp-flags[  1]: 0 0
+
+Changing nstlist from 10 to 25, rlist from 0.935 to 1.044
+
+
+Initializing Domain Decomposition on 28 ranks
+Dynamic load balancing: off
+Minimum cell size due to atom displacement: 0.390 nm
+Initial maximum inter charge-group distances:
+    two-body bonded interactions: 0.387 nm, LJC-14 q, atoms 10 15
+  multi-body bonded interactions: 0.387 nm, Proper Dih., atoms 10 15
+Minimum cell size due to bonded interactions: 0.425 nm
+Maximum distance for 13 constraints, at 120 deg. angles, all-trans: 0.219 nm
+Estimated maximum distance required for P-LINCS: 0.219 nm
+Guess for relative PME load: 0.32
+Will use 18 particle-particle and 10 PME only ranks
+This is a guess, check the performance at the end of the log file
+Using 10 separate PME ranks, as guessed by mdrun
+Scaling the initial minimum size with 1/0.8 (option -dds) = 1.25
+Optimizing the DD grid for 18 cells with a minimum initial size of 0.532 nm
+The maximum allowed number of cells is: X 6 Y 6 Z 6
+
+-------------------------------------------------------
+Program:     mdrun_mpi, version 2018.8
+Source file: src/gromacs/domdec/domdec.cpp (line 6594)
+MPI rank:    0 (out of 28)
+
+Fatal error:
+There is no domain decomposition for 18 ranks that is compatible with the
+given box and a minimum cell size of 0.531816 nm
+Change the number of ranks or mdrun option -rdd or -dds
+Look in the log file for details on the domain decomposition
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
