@@ -188,12 +188,10 @@ if __name__ == '__main__':
     usage  = """Usage:    python optimize_coul_vdw_lambdas.py mdpfile dhdl_xvgfile
 
     DESCRIPTION
-
         This script will optimize the lambda values for coul-then-vdw decoupling intermediates
         to minimize the total variance in P(\Delta u_ij) for neighboring thermodynamic ensembles
 
     OUTPUT
-
         A mdpfile-compatible string with new coul-lambdas and vdw-lambdas will be printed to std output
 
     EXAMPLE
