@@ -1,0 +1,6 @@
+;LIG_res.itp
+[ position_restraints ]
+;i funct       fcx        fcy        fcz
+1    1        800        800        800
+27    1        800        800        800
+18    1        800        800        800

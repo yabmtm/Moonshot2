@@ -1,0 +1,8 @@
+;REC_res.itp
+[ position_restraints ]
+;i funct       fcx        fcy        fcz
+648    1        800        800        800
+2206    1        800        800        800
+2277    1        800        800        800
+2534    1        800        800        800
+2586    1        800        800        800

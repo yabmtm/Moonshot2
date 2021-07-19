@@ -1,0 +1,188 @@
+                      :-) GROMACS - mdrun_mpi, 2018.8 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      mdrun_mpi, version 2018.8
+Executable:   /gpfs/opt/apps/gromacs-2018.8/bin/mdrun_mpi
+Data prefix:  /gpfs/opt/apps/gromacs-2018.8
+Working dir:  /work/tug27224/MOON2/projects/x11294_RL/RUN2
+Command line:
+  mdrun_mpi -maxh 47 -s prod.tpr
+
+Compiled SIMD: SSE4.1, but for this host/run AVX2_256 might be better (see
+log).
+The current CPU can measure timings more accurately than the code in
+mdrun_mpi was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding mdrun_mpi with the GMX_USE_RDTSCP=ON CMake option.
+Reading file prod.tpr, VERSION 2018.8 (single precision)
+
+Multiple energy groups is not implemented for GPUs, falling back to the CPU. For better performance, run on the GPU without energy groups and then do gmx mdrun -rerun option on the trajectory with an energy group .tpr file.
+
+Will use 18 particle-particle and 10 PME only ranks
+This is a guess, check the performance at the end of the log file
+
+Using 28 MPI processes
+Using 1 OpenMP thread per MPI process
+
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+NOTE: There are issues with expanded ensemble and certain combination of nstexpanded and nstcalcenergy, setting nstcalcenergy to 1
+starting mdrun 'Generic title'
+-1 steps, infinite ps.
+
+Step 254714, time 1018.86 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000003, max 0.000062 (between atoms 1676 and 1679)
+
+Step 254714, time 1018.86 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000002, max 0.000062 (between atoms 1676 and 1679)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1676   1679   36.3    0.1090   0.1090      0.1090
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1676   1679   36.3    0.1090   0.1090      0.1090
+
+Step 254831, time 1019.32 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.003947, max 0.110798 (between atoms 1672 and 1675)
+
+Step 254831, time 1019.32 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002864, max 0.110798 (between atoms 1672 and 1675)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1672   1675   96.1    0.1090   0.1211      0.1090
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1672   1675   96.1    0.1090   0.1211      0.1090
+
+Step 254832, time 1019.33 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000364, max 0.010213 (between atoms 1672 and 1675)
+
+Step 254832, time 1019.33 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000372, max 0.010213 (between atoms 1672 and 1675)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1673   1672   44.2    0.1091   0.1098      0.1090
+   1672   1675   76.4    0.1211   0.1079      0.1090
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1672   1675   76.4    0.1211   0.1079      0.1090
+   1672   1673   44.2    0.1091   0.1098      0.1090
+
+Step 254833, time 1019.33 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000014, max 0.000397 (between atoms 1672 and 1675)
+
+Step 254833, time 1019.33 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.000094, max 0.002188 (between atoms 1673 and 1672)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1673   1672   45.6    0.1098   0.1092      0.1090
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1672   1673   45.6    0.1098   0.1092      0.1090
+
+Step 254834, time 1019.34 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001535, max 0.043102 (between atoms 1672 and 1675)
+
+Step 254834, time 1019.34 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.054945, max 1.186197 (between atoms 1673 and 1672)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1673   1672  117.2    0.1092   0.2383      0.1090
+   1674   1672   41.0    0.1091   0.1111      0.1090
+   1672   1675   36.3    0.1090   0.1137      0.1090
+   1671   1670  121.3    0.1090   0.2098      0.1090
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1672   1675   36.3    0.1090   0.1137      0.1090
+   1672   1673  117.2    0.1092   0.2383      0.1090
+   1672   1674   41.0    0.1091   0.1111      0.1090
+Wrote pdb files with previous and current coordinates
+
+Step 254835, time 1019.34 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.004581, max 0.128608 (between atoms 1672 and 1675)
+
+Step 254835, time 1019.34 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.566461, max 12.063202 (between atoms 1673 and 1672)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1673   1672   94.4    0.2383   1.4239      0.1090
+   1674   1672  112.9    0.1111   0.1530      0.1090
+   1672   1675  102.5    0.1137   0.1230      0.1090
+   1671   1670   95.4    0.2098   1.1669      0.1090
+   1669   1668  124.1    0.1090   0.1942      0.1090
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1672   1675  102.5    0.1137   0.1230      0.1090
+   1672   1673   94.4    0.2383   1.4239      0.1090
+   1672   1674  112.9    0.1111   0.1530      0.1090
+
+step 254835: One or more water molecules can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+Wrote pdb files with previous and current coordinates
+
+-------------------------------------------------------
+Program:     mdrun_mpi, version 2018.8
+Source file: src/gromacs/ewald/pme-redistribute.cpp (line 282)
+MPI rank:    10 (out of 28)
+
+Fatal error:
+3 particles communicated to PME rank 3 are more than 2/3 times the cut-off out
+of the domain decomposition cell of their charge group in dimension x.
+This usually means that your system is not well equilibrated.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+WARNING: Listed nonbonded interaction between particles 1671 and 1673
+at distance 2.198 which is larger than the table limit 2.005 nm.
+
+This is likely either a 1,4 interaction, or a listed interaction inside
+a smaller molecule you are decoupling during a free energy calculation.
+Since interactions at distances beyond the table cannot be computed,
+they are skipped until they are inside the table limit again. You will
+only see this message once, even if it occurs for several interactions.
+
+IMPORTANT: This should not happen in a stable simulation, so there is
+probably something wrong with your system. Only change the table-extension
+distance in the mdp file if you are really sure that is the reason.
+
+
