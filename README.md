@@ -2,10 +2,6 @@
 
 ## Index of entries
 
-Found 39 SMILES for Mpro-x11294_2.sdf
-Found 259 SMILES for Mpro-x12692_DMSO_removed.sdf
-Found 217 SMILES for Mpro-P0009_2.sdf
-
 | receptor | run | Postera Link |
 | -------- | --- | ------------ |
 | Mpro-x11294_2.sdf | RUN0 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/99">JUL-TUD-06b2044f-99</a> |
