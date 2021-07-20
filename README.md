@@ -2,6 +2,10 @@
 
 ## Index of entries
 
+*  40 ligands in Mpro-x11294_2.sdf
+*  259 ligands in Mpro-x12692_DMSO_removed.sdf
+*  217 ligands in Mpro-P0009_2.sdf
+
 | receptor | run | Postera Link |
 | -------- | --- | ------------ |
 | Mpro-x11294_2.sdf | RUN0 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/99">JUL-TUD-06b2044f-99</a> |
@@ -13,36 +17,37 @@
 | Mpro-x11294_2.sdf | RUN6 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/85">JUL-TUD-06b2044f-85</a> |
 | Mpro-x11294_2.sdf | RUN7 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/136">JUL-TUD-06b2044f-136</a> |
 | Mpro-x11294_2.sdf | RUN8 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/134">JUL-TUD-06b2044f-134</a> |
-| Mpro-x11294_2.sdf | RUN9 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/134">JUL-TUD-06b2044f-134</a> |
-| Mpro-x11294_2.sdf | RUN10 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/120">JUL-TUD-06b2044f-120</a> |
-| Mpro-x11294_2.sdf | RUN11 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/139">JUL-TUD-06b2044f-139</a> |
+| Mpro-x11294_2.sdf | RUN9 | Postera Entry not found: NA |
+| Mpro-x11294_2.sdf | RUN10 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/134">JUL-TUD-06b2044f-134</a> |
+| Mpro-x11294_2.sdf | RUN11 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/120">JUL-TUD-06b2044f-120</a> |
 | Mpro-x11294_2.sdf | RUN12 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/139">JUL-TUD-06b2044f-139</a> |
-| Mpro-x11294_2.sdf | RUN13 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/126">JUL-TUD-06b2044f-126</a> |
-| Mpro-x11294_2.sdf | RUN14 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
+| Mpro-x11294_2.sdf | RUN13 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/139">JUL-TUD-06b2044f-139</a> |
+| Mpro-x11294_2.sdf | RUN14 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/126">JUL-TUD-06b2044f-126</a> |
 | Mpro-x11294_2.sdf | RUN15 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
 | Mpro-x11294_2.sdf | RUN16 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
 | Mpro-x11294_2.sdf | RUN17 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
 | Mpro-x11294_2.sdf | RUN18 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
 | Mpro-x11294_2.sdf | RUN19 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
-| Mpro-x11294_2.sdf | RUN20 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/139">JUL-TUD-06b2044f-139</a> |
+| Mpro-x11294_2.sdf | RUN20 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/135">JUL-TUD-06b2044f-135</a> |
 | Mpro-x11294_2.sdf | RUN21 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/139">JUL-TUD-06b2044f-139</a> |
-| Mpro-x11294_2.sdf | RUN22 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/147">JUL-TUD-06b2044f-147</a> |
+| Mpro-x11294_2.sdf | RUN22 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/139">JUL-TUD-06b2044f-139</a> |
 | Mpro-x11294_2.sdf | RUN23 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/147">JUL-TUD-06b2044f-147</a> |
-| Mpro-x11294_2.sdf | RUN24 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/120">JUL-TUD-06b2044f-120</a> |
-| Mpro-x11294_2.sdf | RUN25 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/94">JUL-TUD-06b2044f-94</a> |
-| Mpro-x11294_2.sdf | RUN26 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/125">JUL-TUD-06b2044f-125</a> |
-| Mpro-x11294_2.sdf | RUN27 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/149">JUL-TUD-06b2044f-149</a> |
-| Mpro-x11294_2.sdf | RUN28 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/134">JUL-TUD-06b2044f-134</a> |
-| Mpro-x11294_2.sdf | RUN29 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
+| Mpro-x11294_2.sdf | RUN24 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/147">JUL-TUD-06b2044f-147</a> |
+| Mpro-x11294_2.sdf | RUN25 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/120">JUL-TUD-06b2044f-120</a> |
+| Mpro-x11294_2.sdf | RUN26 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/94">JUL-TUD-06b2044f-94</a> |
+| Mpro-x11294_2.sdf | RUN27 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/125">JUL-TUD-06b2044f-125</a> |
+| Mpro-x11294_2.sdf | RUN28 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/149">JUL-TUD-06b2044f-149</a> |
+| Mpro-x11294_2.sdf | RUN29 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/134">JUL-TUD-06b2044f-134</a> |
 | Mpro-x11294_2.sdf | RUN30 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
-| Mpro-x11294_2.sdf | RUN31 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/125">JUL-TUD-06b2044f-125</a> |
+| Mpro-x11294_2.sdf | RUN31 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
 | Mpro-x11294_2.sdf | RUN32 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/125">JUL-TUD-06b2044f-125</a> |
-| Mpro-x11294_2.sdf | RUN33 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
+| Mpro-x11294_2.sdf | RUN33 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/125">JUL-TUD-06b2044f-125</a> |
 | Mpro-x11294_2.sdf | RUN34 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
 | Mpro-x11294_2.sdf | RUN35 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
 | Mpro-x11294_2.sdf | RUN36 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
 | Mpro-x11294_2.sdf | RUN37 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
-| Mpro-x11294_2.sdf | RUN38 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/58">JUL-TUD-06b2044f-58</a> |
+| Mpro-x11294_2.sdf | RUN38 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/143">JUL-TUD-06b2044f-143</a> |
+| Mpro-x11294_2.sdf | RUN39 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/58">JUL-TUD-06b2044f-58</a> |
 | Mpro-x12692_DMSO_removed.sdf | RUN0 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a> |
 | Mpro-x12692_DMSO_removed.sdf | RUN1 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a> |
 | Mpro-x12692_DMSO_removed.sdf | RUN2 | <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a> |
