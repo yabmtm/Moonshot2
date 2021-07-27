@@ -1,5 +1,3 @@
-#!/usr/env/python
-
 import os, sys
 import numpy as np
 
@@ -260,6 +258,7 @@ if __name__ == '__main__':
         raise Exception("There are multiple zero sigma! Are there multiple duplicates in the lambda values?!")
 
     else:
+        print('There are no duplicate lambda')
         pass
 
 
