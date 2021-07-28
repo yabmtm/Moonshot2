@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import os, sys
 import numpy as np
 
@@ -61,7 +63,7 @@ def dG_harmonic_rest_double(x1, x2, k=800.0, L=1.184048):
     return dG_in_kT
 
 
-def dG_harmonic_rest_triple(x1, x2, x3, k=800.0, L=1.184048):
+def dG_harmonic_rest_triple(x1, x2, x3, k=800.0, L=1.184048, verbose=True):
     """Returns the free energy of turning on a triple harmonic restraint in units RT, 
     for a rigid nonlinear molecule restrained at anchors x1, x2, and x3
 
@@ -126,50 +128,13 @@ def dG_harmonic_rest_triple(x1, x2, x3, k=800.0, L=1.184048):
     return theory_dG_in_kT
 
 
-########## Main program -- use as script ##########
-
-if __name__ == '__main__':
-
-    usage = '''Usage:     python harmonic_analytical.py  grofile  restraint_itpfile
-
-    DESCRIPTION
-
-    Given a *.gro file (grofile),
+def get_dG_harmonic_rest(grofile, restraint_itpfile, verbose=True):
+    """Given a *.gro file (grofile),
     and a LIG_res.itp file with list of atom_indices (gmx-numbered, starting at 1),
-    this script will return the standard reduced free energy (units kT) of
+    return the standard reduced free energy (units kT) of
     turning on 1, 2 or 3 harmonic restraints (depending on the number found in the *.itp), 
     assuming the restrained ligand is a rigid body.
-
-    NOTES
-
-    The LIG_res.itp should look like this:
-
-       ;LIG_res.itp
-       [ position_restraints ]
-       ;i funct       fcx        fcy        fcz
-       14    1        800        800        800
-       16    1        800        800        800
-       22    1        800        800        800%              
-
-    Left column is atom index, 3rd (and 4th, 5th) column is the harmonic force constant, k (kJ/mol/nm^2)
-
-
-    EXAMPLES
-
-    Try:
-        $ python python harmonic_analytical.py ../x11294_RL/RUN0/xtc.gro  ../x11294_RL/RUN0/LIG_res.itp
-
-    '''
-
-    if len(sys.argv) < 3:
-        print(usage)
-        sys.exit(1)
-
-
-    grofile = sys.argv[1]
-    itpfile = sys.argv[2]
-
-    verbose = True
+    """
 
     # Parse the itpfile to get the restraint indices
     print('Reading', itpfile, '...')
@@ -222,17 +187,58 @@ Generic title
     title = lines.pop(0)
     natoms = int(lines.pop(0))
     boxsize = lines.pop()
+    print('boxsize', boxsize)
+
+    boxlength = float(boxsize.strip().split()[0])  # grofile box length in nm
+    print('boxlength', boxlength)
 
     positions = [ None ] * len(rest_indices)
     found_grolines = [ None ] * len(rest_indices)
     for line in lines:
-        fields = line.strip().split()
-        atom_index = int(fields[2])
-        if rest_indices.count(atom_index) > 0:
-            found_grolines[ rest_indices.index(atom_index) ] =  line
-            x, y, z = float(fields[3]), float(fields[4]), float(fields[5])
-            positions[ rest_indices.index(atom_index) ] = np.array([x,y,z])
+        # Sometimes parsing fails because of no whitespace: ['10729CL', 'Cl35915', '3.659', '3.964', '7.118']
+        # Just skip these 
+        try:
+            fields = line.strip().split()
+            atom_index = int(fields[2])
+            if rest_indices.count(atom_index) > 0:
+                found_grolines[ rest_indices.index(atom_index) ] =  line
+                x, y, z = float(fields[3]), float(fields[4]), float(fields[5])
+                positions[ rest_indices.index(atom_index) ] = np.array([x,y,z])
+        except:
+            pass
     print('Found grolines', found_grolines) 
+
+    # Correct for PBC artifacts by considering all possible
+    # PBC images of x2 (and x3) if and selecting the ones that are closest to x1
+
+    if len(positions) > 1:   # PBC artifacts don't apply to a single atom
+
+        print('Positions before PBC correction:')
+        print(positions)
+
+        all_pbc_shifts = []
+        for i in [-1.0*boxlength, 0, boxlength]:
+            for j in [-1.0*boxlength, 0, boxlength]:
+                for k in [-1.0*boxlength, 0, boxlength]:
+                    all_pbc_shifts.append([i,j,k])
+        all_pbc_shifts = np.array(all_pbc_shifts)
+
+        for i in range(1,len(positions)):
+            x = positions[i]
+            x1 = positions[0]
+            ## Find all images of the particle
+            all_images = np.tile(x, 27).reshape(27, 3) + all_pbc_shifts
+            ### select the image that is the closest to particle 1  (note: this only works if distances are < boxlength/2)
+            displacements = all_images - np.tile(x1, 27).reshape(27, 3)
+            # print('displacements', displacements)
+            sq_distances = np.sum(displacements * displacements, axis=1)
+            # print('sq_distances', sq_distances)
+            closest_index = np.argmin(sq_distances)     
+            positions[i] = all_images[closest_index,:]
+
+        print('Positions after PBC correction:')
+        print(positions)
+
 
     if len(positions) == 1:
         dG_rest_in_kT = dG_harmonic_rest_single(k, L=1.184048)
@@ -245,4 +251,55 @@ Generic title
         print('dG_rest_in_kT (triple):', dG_rest_in_kT)
     else:
         raise Exception('len(positions) = %d ???'%len(positions))
+
+    return dG_rest_in_kT
+
+
+
+########## Main program -- use as script ##########
+
+if __name__ == '__main__':
+
+    usage = '''Usage:     python harmonic_analytical.py  grofile  restraint_itpfile
+
+    DESCRIPTION
+
+    Given a *.gro file (grofile),
+    and a LIG_res.itp file with list of atom_indices (gmx-numbered, starting at 1),
+    this script will return the standard reduced free energy (units kT) of
+    turning on 1, 2 or 3 harmonic restraints (depending on the number found in the *.itp), 
+    assuming the restrained ligand is a rigid body.
+
+    NOTES
+
+    The LIG_res.itp should look like this:
+
+       ;LIG_res.itp
+       [ position_restraints ]
+       ;i funct       fcx        fcy        fcz
+       14    1        800        800        800
+       16    1        800        800        800
+       22    1        800        800        800%              
+
+    Left column is atom index, 3rd (and 4th, 5th) column is the harmonic force constant, k (kJ/mol/nm^2)
+
+
+    EXAMPLES
+
+    Try:
+        $ python harmonic_analytical.py ../x11294_RL/RUN0/xtc.gro  ../x11294_RL/RUN0/LIG_res.itp
+
+    '''
+
+    if len(sys.argv) < 3:
+        print(usage)
+        sys.exit(1)
+
+
+    grofile = sys.argv[1]
+    itpfile = sys.argv[2]
+
+    dG_rest_in_kT = get_dG_harmonic_rest(grofile, itpfile)
+
+    print('dG_rest_in_kT', dG_rest_in_kT)
 
