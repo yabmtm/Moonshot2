@@ -128,12 +128,18 @@ def dG_harmonic_rest_triple(x1, x2, x3, k=800.0, L=1.184048, verbose=True):
     return theory_dG_in_kT
 
 
-def get_dG_harmonic_rest(grofile, restraint_itpfile, verbose=True):
+def get_dG_harmonic_rest(grofile, itpfile, verbose=True):
     """Given a *.gro file (grofile),
     and a LIG_res.itp file with list of atom_indices (gmx-numbered, starting at 1),
     return the standard reduced free energy (units kT) of
     turning on 1, 2 or 3 harmonic restraints (depending on the number found in the *.itp), 
     assuming the restrained ligand is a rigid body.
+
+    INPUTS
+    grofile, restraint_itpfile
+
+    RETURNS a tuple
+    dG_rest_in_kT, restraint_function_used (a string: 'single', double', or 'triple')
     """
 
     # Parse the itpfile to get the restraint indices
@@ -243,16 +249,18 @@ Generic title
     if len(positions) == 1:
         dG_rest_in_kT = dG_harmonic_rest_single(k, L=1.184048)
         print('dG_rest_in_kT (single):', dG_rest_in_kT)
+        return dG_rest_in_kT, 'single'
     elif len(positions) == 2:
         dG_rest_in_kT = dG_harmonic_rest_double(positions[0], positions[1], k, L=1.184048)
         print('dG_rest_in_kT (double):', dG_rest_in_kT)
+        return dG_rest_in_kT, 'double'
     elif len(positions) == 3:
         dG_rest_in_kT = dG_harmonic_rest_triple(positions[0], positions[1], positions[2], k, L=1.184048)
         print('dG_rest_in_kT (triple):', dG_rest_in_kT)
+        return dG_rest_in_kT, 'triple'
     else:
         raise Exception('len(positions) = %d ???'%len(positions))
 
-    return dG_rest_in_kT
 
 
 
@@ -299,7 +307,7 @@ if __name__ == '__main__':
     grofile = sys.argv[1]
     itpfile = sys.argv[2]
 
-    dG_rest_in_kT = get_dG_harmonic_rest(grofile, itpfile)
+    dG_rest_in_kT, restraint_function_used = get_dG_harmonic_rest(grofile, itpfile)
 
-    print('dG_rest_in_kT', dG_rest_in_kT)
+    print('dG_rest_in_kT', dG_rest_in_kT, restraint_function_used)
 
