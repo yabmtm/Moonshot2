@@ -6,344 +6,344 @@
 *  259 ligands in Mpro-x12692_DMSO_removed.sdf
 *  217 ligands in Mpro-P0009_2.sdf
 
-Of these, simulations were completed for 338 systems:
+Of these, simulations were completed for 377 systems:
 
 | Receptor | Run | Free Energy (RT) | Kd (M) | WL Increment | Complex (ns) | Ligand (ns) | Postera Link | 
 | -------- | --- | ---------------- | ------ | ------------ | ------------ | ----------- | ------------ |
-| x12692 | RUN47 | -36.550±8.664 | -15.873±3.763 | 0.059 | 95.23 | 208.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN23 | -34.051±3.662 | -14.788±1.590 | 0.030 | 99.2 | 184.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/50">JUL-TUD-06b2044f-50</a>  |
-| x12692 | RUN111 | -33.223±6.372 | -14.429±2.767 | 0.144 | 57.47 | 161.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/108">JUL-TUD-06b2044f-108</a>  |
-| x12692 | RUN6 | -31.743±3.885 | -13.786±1.687 | 0.038 | 98.69 | 216.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN18 | -31.476±7.692 | -13.670±3.341 | 0.038 | 91.4 | 206.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN118 | -31.345±2.024 | -13.613±0.879 | 0.059 | 67.26 | 175.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/46">JUL-TUD-06b2044f-46</a>  |
-| x12692 | RUN2 | -31.210±3.440 | -13.554±1.494 | 0.038 | 98.51 | 217.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN11 | -29.667±2.997 | -12.884±1.302 | 0.038 | 100.38 | 199.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/44">JUL-TUD-06b2044f-44</a>  |
-| x12692 | RUN1 | -28.728±4.258 | -12.477±1.849 | 0.038 | 98.01 | 180.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN38 | -28.491±4.379 | -12.373±1.902 | 0.047 | 93.38 | 206.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN9 | -28.173±3.316 | -12.235±1.440 | 0.038 | 98.18 | 217.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN88 | -27.687±6.115 | -12.024±2.656 | 0.180 | 57.69 | 160.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/111">JUL-TUD-06b2044f-111</a>  |
-| x12692 | RUN126 | -26.899±6.293 | -11.682±2.733 | 0.115 | 56.72 | 175.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/84">JUL-TUD-06b2044f-84</a>  |
-| x12692 | RUN127 | -26.822±3.509 | -11.649±1.524 | 0.115 | 59.72 | 160.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN122 | -26.540±6.619 | -11.526±2.875 | 0.074 | 67.35 | 212.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN14 | -26.417±0.695 | -11.473±0.302 | 0.019 | 96.07 | 172.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/111">JUL-TUD-06b2044f-111</a>  |
-| x12692 | RUN116 | -25.774±1.860 | -11.193±0.808 | 0.180 | 51.56 | 160.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/77">JUL-TUD-06b2044f-77</a>  |
-| x12692 | RUN113 | -25.745±7.597 | -11.181±3.300 | 0.180 | 57.07 | 161.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/145">JUL-TUD-06b2044f-145</a>  |
-| x12692 | RUN22 | -25.737±0.741 | -11.177±0.322 | 0.038 | 89.89 | 195.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/64">JUL-TUD-06b2044f-64</a>  |
-| x12692 | RUN61 | -25.568±5.230 | -11.104±2.272 | 0.059 | 95.0 | 175.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN36 | -25.003±0.940 | -10.859±0.408 | 0.038 | 97.6 | 179.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/107">JUL-TUD-06b2044f-107</a>  |
-| x12692 | RUN24 | -24.831±0.714 | -10.784±0.310 | 0.030 | 88.12 | 160.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/64">JUL-TUD-06b2044f-64</a>  |
-| x12692 | RUN0 | -24.828±3.316 | -10.783±1.440 | 0.038 | 97.86 | 180.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN5 | -24.266±3.035 | -10.539±1.318 | 0.038 | 98.07 | 216.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN60 | -23.546±5.233 | -10.226±2.273 | 0.047 | 92.29 | 175.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN19 | -23.219±9.090 | -10.084±3.948 | 0.047 | 92.42 | 170.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN39 | -23.194±4.286 | -10.073±1.861 | 0.074 | 90.72 | 168.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN4 | -23.048±3.415 | -10.010±1.483 | 0.047 | 96.1 | 186.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN72 | -23.010±0.629 | -9.993±0.273 | 0.074 | 67.0 | 192.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/111">JUL-TUD-06b2044f-111</a>  |
-| x12692 | RUN75 | -22.915±5.737 | -9.952±2.492 | 0.115 | 55.09 | 160.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/67">JUL-TUD-06b2044f-67</a>  |
-| x12692 | RUN90 | -22.147±3.386 | -9.618±1.470 | 0.092 | 58.69 | 181.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/92">JUL-TUD-06b2044f-92</a>  |
-| x12692 | RUN117 | -21.589±5.160 | -9.376±2.241 | 0.144 | 56.34 | 158.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/77">JUL-TUD-06b2044f-77</a>  |
-| x12692 | RUN120 | -21.452±5.514 | -9.316±2.395 | 0.059 | 66.96 | 187.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN121 | -21.393±4.641 | -9.291±2.016 | 0.059 | 65.49 | 176.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN3 | -21.350±4.644 | -9.272±2.017 | 0.038 | 96.35 | 180.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN57 | -21.201±1.951 | -9.207±0.847 | 0.074 | 89.45 | 182.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| x12692 | RUN29 | -21.020±3.296 | -9.129±1.432 | 0.047 | 91.24 | 170.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/95">JUL-TUD-06b2044f-95</a>  |
-| x12692 | RUN67 | -20.753±1.602 | -9.013±0.696 | 0.144 | 63.54 | 155.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN7 | -20.500±3.289 | -8.903±1.428 | 0.038 | 96.32 | 180.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| x12692 | RUN81 | -20.221±1.567 | -8.782±0.681 | 0.144 | 62.84 | 156.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/92">JUL-TUD-06b2044f-92</a>  |
-| x12692 | RUN56 | -20.020±2.325 | -8.695±1.010 | 0.074 | 89.28 | 211.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| x12692 | RUN107 | -19.029±6.045 | -8.264±2.625 | 0.092 | 63.81 | 180.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| x12692 | RUN17 | -18.662±3.281 | -8.105±1.425 | 0.074 | 90.89 | 169.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN71 | -18.528±1.421 | -8.046±0.617 | 0.092 | 62.38 | 149.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| x12692 | RUN62 | -18.451±0.573 | -8.013±0.249 | 0.038 | 92.92 | 173.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/112">JUL-TUD-06b2044f-112</a>  |
-| x12692 | RUN28 | -17.544±3.888 | -7.619±1.689 | 0.059 | 95.02 | 170.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/95">JUL-TUD-06b2044f-95</a>  |
-| x12692 | RUN112 | -17.149±0.413 | -7.448±0.179 | 0.047 | 71.21 | 202.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/47">JUL-TUD-06b2044f-47</a>  |
-| x12692 | RUN102 | -16.115±5.386 | -6.999±2.339 | 0.115 | 62.46 | 160.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/80">JUL-TUD-06b2044f-80</a>  |
-| x12692 | RUN123 | -15.854±0.406 | -6.885±0.177 | 0.047 | 70.26 | 193.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN8 | -15.827±3.922 | -6.873±1.703 | 0.047 | 96.85 | 179.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/49">JUL-TUD-06b2044f-49</a>  |
-| P0009 | RUN119 | -15.682±1.771 | -6.810±0.769 | 0.019 | 86.16 | 68.9 |  Postera Entry not found: O=C(COc1cc(F)c(Cl)cc1Cl)NCCN1CCOCC1  |
-| x12692 | RUN83 | -15.604±1.638 | -6.777±0.711 | 0.092 | 64.4 | 220.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/67">JUL-TUD-06b2044f-67</a>  |
-| x12692 | RUN58 | -15.315±6.531 | -6.651±2.836 | 0.038 | 93.58 | 175.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/87">JUL-TUD-06b2044f-87</a>  |
-| x12692 | RUN80 | -15.172±3.612 | -6.589±1.568 | 0.074 | 63.45 | 180.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| x12692 | RUN49 | -14.812±2.179 | -6.433±0.946 | 0.059 | 93.84 | 162.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| x12692 | RUN66 | -14.763±1.569 | -6.412±0.681 | 0.144 | 64.09 | 164.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| P0009 | RUN194 | -14.749±1.448 | -6.405±0.629 | 0.092 | 45.42 | 60.9 |  Postera Entry not found: Cc1noc(C)c1Cn1cc(NC(=O)Cc2cc(Cl)c(Cl)cc2F)cn1  |
-| x12692 | RUN86 | -14.687±4.297 | -6.379±1.866 | 0.092 | 63.24 | 181.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| x12692 | RUN27 | -14.622±3.487 | -6.350±1.514 | 0.047 | 95.72 | 171.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/95">JUL-TUD-06b2044f-95</a>  |
-| x12692 | RUN43 | -14.528±0.830 | -6.309±0.360 | 0.038 | 89.99 | 166.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| x12692 | RUN13 | -14.440±2.643 | -6.271±1.148 | 0.092 | 92.93 | 162.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| x12692 | RUN77 | -14.419±3.438 | -6.262±1.493 | 0.115 | 64.42 | 198.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| P0009 | RUN20 | -14.303±1.487 | -6.212±0.646 | 0.059 | 42.06 | 122.7 |  Postera Entry not found: COc1ncccc1CN1CCN(Cc2cc(Cl)cc(Cl)c2OC)C1=O  |
-| x12692 | RUN53 | -14.170±1.113 | -6.154±0.483 | 0.074 | 83.84 | 165.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| x12692 | RUN15 | -13.872±0.567 | -6.024±0.246 | 0.030 | 97.7 | 188.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/106">JUL-TUD-06b2044f-106</a>  |
-| x12692 | RUN109 | -13.425±3.170 | -5.830±1.377 | 0.180 | 58.34 | 165.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| x12692 | RUN64 | -13.402±0.716 | -5.820±0.311 | 0.144 | 57.8 | 161.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| x12692 | RUN10 | -13.392±1.400 | -5.816±0.608 | 0.047 | 87.66 | 180.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN119 | -13.175±3.291 | -5.722±1.429 | 0.047 | 67.99 | 173.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/63">JUL-TUD-06b2044f-63</a>  |
-| x12692 | RUN46 | -13.114±0.391 | -5.696±0.170 | 0.047 | 100.11 | 232.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/138">JUL-TUD-06b2044f-138</a>  |
-| x12692 | RUN82 | -13.111±6.028 | -5.694±2.618 | 0.115 | 60.85 | 196.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| P0009 | RUN33 | -12.941±0.000 | -5.620±0.000 | 0.059 | 44.46 | 64.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/69">JUL-TUD-06b2044f-69</a>  |
-| x12692 | RUN125 | -12.860±4.863 | -5.585±2.112 | 0.115 | 62.65 | 168.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/79">JUL-TUD-06b2044f-79</a>  |
-| x12692 | RUN69 | -12.782±7.399 | -5.551±3.213 | 0.180 | 58.34 | 160.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/47">JUL-TUD-06b2044f-47</a>  |
-| x12692 | RUN37 | -12.572±1.298 | -5.460±0.564 | 0.092 | 89.15 | 189.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN40 | -12.434±4.555 | -5.400±1.978 | 0.059 | 89.3 | 165.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| x12692 | RUN25 | -12.106±2.093 | -5.257±0.909 | 0.059 | 88.6 | 155.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN20 | -11.832±5.132 | -5.139±2.229 | 0.038 | 91.97 | 189.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| x12692 | RUN51 | -11.724±0.737 | -5.092±0.320 | 0.074 | 82.25 | 191.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| x12692 | RUN44 | -11.608±1.044 | -5.041±0.454 | 0.059 | 82.68 | 155.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| P0009 | RUN86 | -11.516±8.344 | -5.001±3.624 | 0.144 | 25.51 | 80.4 |  Postera Entry not found: O=C(Nc1cn[nH]c1)C1CCN(Cc2ccc(Cl)c(Cl)c2)C1  |
-| P0009 | RUN35 | -11.373±1.282 | -4.939±0.557 | 0.144 | 29.31 | 63.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/69">JUL-TUD-06b2044f-69</a>  |
-| x12692 | RUN16 | -11.370±2.122 | -4.938±0.922 | 0.059 | 89.34 | 156.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN30 | -11.236±1.665 | -4.880±0.723 | 0.092 | 89.83 | 157.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN21 | -10.984±1.484 | -4.770±0.644 | 0.059 | 89.74 | 156.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN124 | -10.966±0.274 | -4.763±0.119 | 0.092 | 69.71 | 232.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/79">JUL-TUD-06b2044f-79</a>  |
-| P0009 | RUN38 | -10.926±1.847 | -4.745±0.802 | 0.144 | 34.69 | 61.7 |  Postera Entry not found: COc1c(Cl)cc(Cl)cc1CC(=O)NCCOc1cccc2[nH]ncc12  |
-| P0009 | RUN106 | -10.818±1.420 | -4.698±0.617 | 0.030 | 86.18 | 77.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/114">JUL-TUD-06b2044f-114</a>  |
-| x12692 | RUN70 | -10.638±0.811 | -4.620±0.352 | 0.144 | 59.1 | 154.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| x12692 | RUN101 | -10.553±0.755 | -4.583±0.328 | 0.115 | 62.61 | 210.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| x12692 | RUN110 | -10.526±0.656 | -4.571±0.285 | 0.092 | 65.35 | 178.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/75">JUL-TUD-06b2044f-75</a>  |
-| P0009 | RUN21 | -10.320±1.195 | -4.482±0.519 | 0.059 | 41.91 | 122.2 |  Postera Entry not found: COc1ncccc1CN1CCN(Cc2cc(Cl)cc(Cl)c2OC)C1=O  |
-| x12692 | RUN91 | -10.267±1.715 | -4.459±0.745 | 0.115 | 61.9 | 156.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/88">JUL-TUD-06b2044f-88</a>  |
-| x12692 | RUN87 | -10.098±0.594 | -4.386±0.258 | 0.074 | 64.35 | 173.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| P0009 | RUN50 | -10.069±1.486 | -4.373±0.645 | 0.115 | 35.28 | 61.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| x12692 | RUN115 | -9.968±1.391 | -4.329±0.604 | 0.144 | 60.68 | 161.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/71">JUL-TUD-06b2044f-71</a>  |
-| x12692 | RUN55 | -9.916±1.742 | -4.307±0.757 | 0.074 | 84.51 | 162.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| x12692 | RUN95 | -9.775±0.636 | -4.245±0.276 | 0.074 | 66.37 | 178.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/51">JUL-TUD-06b2044f-51</a>  |
-| P0009 | RUN198 | -9.747±3.499 | -4.233±1.520 | 0.092 | 46.77 | 64.1 |  Postera Entry not found: O=C(Cc1ccc(Cl)c(Cl)c1)N1CCc2onc(CN3CCOCC3)c2C1  |
-| P0009 | RUN200 | -9.639±2.686 | -4.186±1.167 | 0.059 | 56.44 | 63.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| x12692 | RUN114 | -9.549±2.671 | -4.147±1.160 | 0.115 | 65.31 | 159.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/47">JUL-TUD-06b2044f-47</a>  |
-| P0009 | RUN150 | -9.367±1.277 | -4.068±0.555 | 0.047 | 74.22 | 67.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/128">JUL-TUD-06b2044f-128</a>  |
-| x12692 | RUN26 | -9.346±1.205 | -4.059±0.523 | 0.059 | 88.46 | 165.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN192 | -9.265±1.476 | -4.024±0.641 | 0.019 | 90.71 | 74.0 |  Postera Entry not found: Cc1noc(CCC(=O)N(C)Cc2cc(F)c(F)cc2Cl)n1  |
-| x12692 | RUN73 | -9.229±0.769 | -4.008±0.334 | 0.047 | 69.47 | 183.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/106">JUL-TUD-06b2044f-106</a>  |
-| x12692 | RUN54 | -9.125±0.972 | -3.963±0.422 | 0.059 | 86.24 | 165.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN76 | -9.123±1.359 | -3.962±0.590 | 0.144 | 24.31 | 63.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| x12692 | RUN76 | -9.027±0.581 | -3.921±0.252 | 0.074 | 61.12 | 168.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN22 | -8.635±0.948 | -3.750±0.412 | 0.115 | 59.36 | 120.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/57">JUL-TUD-06b2044f-57</a>  |
-| x12692 | RUN31 | -8.555±6.308 | -3.715±2.740 | 0.030 | 94.3 | 189.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
-| P0009 | RUN147 | -8.380±1.313 | -3.639±0.570 | 0.010 | 100.22 | 67.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/128">JUL-TUD-06b2044f-128</a>  |
-| P0009 | RUN37 | -8.178±6.942 | -3.552±3.015 | 0.092 | 33.02 | 62.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/69">JUL-TUD-06b2044f-69</a>  |
-| P0009 | RUN77 | -8.109±3.281 | -3.522±1.425 | 0.225 | 24.89 | 79.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/90">JUL-TUD-06b2044f-90</a>  |
-| P0009 | RUN132 | -8.069±4.975 | -3.504±2.161 | 0.038 | 89.32 | 59.0 |  Postera Entry not found: COc1c(CN(C)C(=O)CCn2nnnc2C(C)C)ccc(Cl)c1Cl  |
-| P0009 | RUN73 | -8.042±2.342 | -3.493±1.017 | 0.180 | 24.93 | 58.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| P0009 | RUN54 | -8.007±1.741 | -3.477±0.756 | 0.225 | 37.7 | 71.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| P0009 | RUN196 | -7.951±1.194 | -3.453±0.518 | 0.047 | 53.67 | 62.6 |  Postera Entry not found: Clc1ccc(CN2CCCn3c(Cn4cncn4)nnc32)cc1Cl  |
-| P0009 | RUN97 | -7.906±4.673 | -3.434±2.029 | 0.352 | 13.76 | 70.0 |  Postera Entry not found: O=C(Cc1cncc(-n2cccn2)c1F)N1CCc2cc(Cl)c(Cl)cc21  |
-| P0009 | RUN149 | -7.882±1.239 | -3.423±0.538 | 0.015 | 110.1 | 67.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/128">JUL-TUD-06b2044f-128</a>  |
-| x12692 | RUN63 | -7.841±1.495 | -3.405±0.649 | 0.092 | 86.02 | 165.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN155 | -7.779±1.019 | -3.378±0.443 | 0.015 | 84.61 | 64.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| x12692 | RUN59 | -7.633±0.917 | -3.315±0.398 | 0.074 | 86.35 | 167.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/121">JUL-TUD-06b2044f-121</a>  |
-| x12692 | RUN84 | -7.505±0.901 | -3.260±0.391 | 0.092 | 61.98 | 174.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| P0009 | RUN156 | -7.487±0.871 | -3.252±0.378 | 0.012 | 80.9 | 81.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN130 | -7.485±1.263 | -3.251±0.549 | 0.012 | 89.98 | 73.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/123">JUL-TUD-06b2044f-123</a>  |
-| P0009 | RUN0 | -7.396±1.128 | -3.212±0.490 | 0.019 | 94.95 | 90.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/43">JUL-TUD-06b2044f-43</a>  |
-| P0009 | RUN23 | -7.284±1.062 | -3.163±0.461 | 0.074 | 56.5 | 97.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/57">JUL-TUD-06b2044f-57</a>  |
-| x12692 | RUN78 | -7.245±1.808 | -3.146±0.785 | 0.144 | 62.31 | 220.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/113">JUL-TUD-06b2044f-113</a>  |
-| P0009 | RUN205 | -7.230±1.340 | -3.140±0.582 | 0.092 | 43.75 | 58.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/155">JUL-TUD-06b2044f-155</a>  |
-| P0009 | RUN181 | -7.219±0.709 | -3.135±0.308 | 0.015 | 91.06 | 79.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/137">JUL-TUD-06b2044f-137</a>  |
-| P0009 | RUN199 | -7.201±3.042 | -3.127±1.321 | 0.144 | 46.62 | 63.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| P0009 | RUN63 | -6.897±1.945 | -2.995±0.845 | 0.092 | 31.27 | 82.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/78">JUL-TUD-06b2044f-78</a>  |
-| P0009 | RUN211 | -6.822±1.424 | -2.963±0.619 | 0.059 | 50.53 | 57.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/157">JUL-TUD-06b2044f-157</a>  |
-| P0009 | RUN187 | -6.784±0.906 | -2.946±0.394 | 0.015 | 92.85 | 75.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/142">JUL-TUD-06b2044f-142</a>  |
-| P0009 | RUN80 | -6.731±1.610 | -2.923±0.699 | 0.144 | 25.04 | 62.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/90">JUL-TUD-06b2044f-90</a>  |
-| P0009 | RUN57 | -6.710±1.551 | -2.914±0.673 | 0.144 | 28.94 | 61.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/74">JUL-TUD-06b2044f-74</a>  |
-| x12692 | RUN42 | -6.586±0.740 | -2.860±0.321 | 0.074 | 85.22 | 191.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| x12692 | RUN94 | -6.521±1.363 | -2.832±0.592 | 0.074 | 57.78 | 173.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/51">JUL-TUD-06b2044f-51</a>  |
-| P0009 | RUN24 | -6.483±1.202 | -2.815±0.522 | 0.092 | 58.42 | 63.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/57">JUL-TUD-06b2044f-57</a>  |
-| P0009 | RUN90 | -6.467±1.589 | -2.809±0.690 | 0.440 | 15.55 | 65.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| P0009 | RUN42 | -6.447±1.053 | -2.800±0.457 | 0.074 | 34.44 | 67.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/72">JUL-TUD-06b2044f-72</a>  |
-| x12692 | RUN93 | -6.290±1.333 | -2.732±0.579 | 0.115 | 65.55 | 208.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/75">JUL-TUD-06b2044f-75</a>  |
-| P0009 | RUN89 | -6.226±1.328 | -2.704±0.577 | 0.225 | 18.82 | 82.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| P0009 | RUN18 | -6.202±1.436 | -2.693±0.623 | 0.012 | 98.47 | 88.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| P0009 | RUN1 | -6.192±1.146 | -2.689±0.498 | 0.010 | 111.64 | 92.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/43">JUL-TUD-06b2044f-43</a>  |
-| P0009 | RUN116 | -6.167±1.199 | -2.678±0.521 | 0.010 | 87.28 | 72.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/118">JUL-TUD-06b2044f-118</a>  |
-| x12692 | RUN33 | -6.101±1.506 | -2.650±0.654 | 0.092 | 83.01 | 202.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN133 | -6.084±1.931 | -2.642±0.839 | 0.024 | 88.74 | 62.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/122">JUL-TUD-06b2044f-122</a>  |
-| P0009 | RUN85 | -5.933±4.104 | -2.577±1.782 | 0.225 | 27.56 | 68.2 |  Postera Entry not found: Cn1cncc1CCNC(=O)C1(c2ccc(Cl)c(Cl)c2)CCOCC1  |
-| P0009 | RUN64 | -5.921±2.457 | -2.571±1.067 | 0.225 | 35.52 | 58.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/78">JUL-TUD-06b2044f-78</a>  |
-| P0009 | RUN105 | -5.906±2.159 | -2.565±0.938 | 0.019 | 83.3 | 64.4 |  Postera Entry not found: CC(=O)NCC1CCCN1C(=O)NCc1ccc(Cl)c(Cl)c1  |
-| P0009 | RUN78 | -5.896±1.736 | -2.561±0.754 | 0.180 | 24.77 | 62.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/90">JUL-TUD-06b2044f-90</a>  |
-| P0009 | RUN164 | -5.864±1.184 | -2.547±0.514 | 0.024 | 90.04 | 63.8 |  Postera Entry not found: O=C(Cc1cc(Cl)c(Cl)cc1F)N1CCOCC1COc1cccnc1  |
-| P0009 | RUN134 | -5.756±0.735 | -2.500±0.319 | 0.024 | 103.38 | 71.9 |  Postera Entry not found: CCOc1c(CN(C(=O)Cn2nnnc2C)C(C)C)ccc(Cl)c1Cl  |
-| x12692 | RUN92 | -5.734±2.948 | -2.490±1.280 | 0.225 | 59.24 | 165.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| P0009 | RUN126 | -5.729±1.345 | -2.488±0.584 | 0.019 | 79.92 | 79.5 |  Postera Entry not found: CC(CN1CCN(Cc2ccc(Cl)c(Cl)c2)C1=O)Cn1cncn1  |
-| P0009 | RUN208 | -5.660±1.649 | -2.458±0.716 | 0.092 | 46.43 | 73.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/157">JUL-TUD-06b2044f-157</a>  |
-| P0009 | RUN74 | -5.655±1.151 | -2.456±0.500 | 0.225 | 24.43 | 57.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| P0009 | RUN215 | -5.583±3.447 | -2.425±1.497 | 0.074 | 50.46 | 57.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/154">JUL-TUD-06b2044f-154</a>  |
-| P0009 | RUN107 | -5.566±1.210 | -2.417±0.526 | 0.012 | 95.02 | 66.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/114">JUL-TUD-06b2044f-114</a>  |
-| P0009 | RUN99 | -5.540±1.212 | -2.406±0.526 | 0.687 | 12.52 | 71.4 |  Postera Entry not found: O=C(NCCn1ccnn1)C1CCc2c(ccc(Cl)c2Cl)O1  |
-| P0009 | RUN117 | -5.530±0.786 | -2.402±0.341 | 0.010 | 95.66 | 72.6 |  Postera Entry not found: O=C(NCc1ccc(Cl)c(Cl)c1)NCC1COCCO1  |
-| P0009 | RUN136 | -5.493±1.793 | -2.385±0.779 | 0.019 | 110.88 | 81.7 |  Postera Entry not found: CN(Cc1ccc(Cl)c(Cl)c1)C(=O)C1COc2ncccc21  |
-| P0009 | RUN125 | -5.460±1.688 | -2.371±0.733 | 0.030 | 80.34 | 64.7 |  Postera Entry not found: CC(CN1CCN(Cc2ccc(Cl)c(Cl)c2)C1=O)Cn1cncn1  |
-| P0009 | RUN71 | -5.442±1.457 | -2.363±0.633 | 0.144 | 25.97 | 57.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| P0009 | RUN191 | -5.381±1.681 | -2.337±0.730 | 0.015 | 106.29 | 73.5 |  Postera Entry not found: Cc1noc(C)c1CC(=O)NCC(F)(F)c1cc(Cl)c(Cl)cc1F  |
-| P0009 | RUN197 | -5.379±1.702 | -2.336±0.739 | 0.059 | 51.71 | 59.8 |  Postera Entry not found: Cc1nccn1CC(=O)N1CCN(Cc2ccc(Cl)c(Cl)c2)CC1  |
-| P0009 | RUN109 | -5.329±2.085 | -2.315±0.905 | 0.024 | 89.83 | 62.7 |  Postera Entry not found: CC(C)(CNC(=O)Cc1ccc(Cl)c(Cl)c1)N1CCOCC1  |
-| P0009 | RUN190 | -5.283±1.496 | -2.294±0.650 | 0.012 | 89.02 | 78.4 |  Postera Entry not found: Cc1noc(C)c1CC(=O)NCC(F)(F)c1cc(Cl)c(Cl)cc1F  |
-| P0009 | RUN131 | -5.282±1.599 | -2.294±0.694 | 0.015 | 87.59 | 62.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/123">JUL-TUD-06b2044f-123</a>  |
-| P0009 | RUN13 | -5.276±1.276 | -2.291±0.554 | 0.024 | 96.08 | 87.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| x12692 | RUN98 | -5.225±0.744 | -2.269±0.323 | 0.074 | 60.99 | 168.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN59 | -5.202±1.080 | -2.259±0.469 | 0.144 | 36.62 | 61.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/74">JUL-TUD-06b2044f-74</a>  |
-| P0009 | RUN142 | -5.201±2.444 | -2.259±1.061 | 0.030 | 87.92 | 69.5 |  Postera Entry not found: CN(Cc1cc(Cl)c(Cl)cc1F)C(=O)CCN1CCOC1=O  |
-| P0009 | RUN47 | -5.187±1.823 | -2.253±0.792 | 0.115 | 35.31 | 57.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/80">JUL-TUD-06b2044f-80</a>  |
-| P0009 | RUN168 | -5.186±1.481 | -2.252±0.643 | 0.030 | 89.96 | 79.3 |  Postera Entry not found: COCC(C)N(Cc1cc(Cl)c(Cl)cc1F)C(=O)Cn1nnc2ccccc21  |
-| P0009 | RUN3 | -5.168±1.034 | -2.245±0.449 | 0.074 | 45.29 | 118.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/43">JUL-TUD-06b2044f-43</a>  |
-| P0009 | RUN153 | -5.086±1.317 | -2.209±0.572 | 0.010 | 100.05 | 64.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN124 | -5.072±1.107 | -2.203±0.481 | 0.015 | 91.69 | 64.7 |  Postera Entry not found: CC(CN1CCN(Cc2cc(Cl)c(Cl)cc2F)C1=O)Cn1cncn1  |
-| P0009 | RUN55 | -4.970±1.620 | -2.158±0.704 | 0.115 | 41.42 | 60.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| x12692 | RUN12 | -4.942±2.091 | -2.146±0.908 | 0.059 | 91.95 | 163.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| P0009 | RUN28 | -4.935±1.124 | -2.143±0.488 | 0.074 | 44.23 | 62.0 |  Postera Entry not found: CN(C(=O)C1CCc2cc(Cl)c(Cl)cc21)C1CCN(CC2CCOC2)C1  |
-| P0009 | RUN184 | -4.903±1.456 | -2.129±0.632 | 0.012 | 90.46 | 82.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/140">JUL-TUD-06b2044f-140</a>  |
-| P0009 | RUN56 | -4.857±1.235 | -2.110±0.536 | 0.074 | 38.18 | 60.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| P0009 | RUN144 | -4.843±1.506 | -2.103±0.654 | 0.019 | 86.62 | 69.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/127">JUL-TUD-06b2044f-127</a>  |
-| P0009 | RUN195 | -4.812±0.789 | -2.090±0.343 | 0.047 | 48.94 | 69.8 |  Postera Entry not found: Cn1cc(CN2CCCN(C(=O)NCc3cc(Cl)c(Cl)cc3F)C2)cn1  |
-| P0009 | RUN175 | -4.807±4.478 | -2.088±1.945 | 0.015 | 86.54 | 85.3 |  Postera Entry not found: COc1c(CN(CC2CCOC2)C(=O)C2CCN(C(=O)c3ccco3)C2)ccc(Cl)c1Cl  |
-| P0009 | RUN65 | -4.768±2.194 | -2.071±0.953 | 0.180 | 31.83 | 75.3 |  Postera Entry not found: CN1CCc2c(cncc2C(=O)N2CCN(Cc3ccc(Cl)c(Cl)c3)C2)C1  |
-| P0009 | RUN48 | -4.754±2.558 | -2.064±1.111 | 0.092 | 34.46 | 57.3 |  Postera Entry not found: COc1cc(Cl)c(Cl)cc1CN1CCC(CCN2CCOCC2C)C1=O  |
-| P0009 | RUN162 | -4.730±0.723 | -2.054±0.314 | 0.006 | 103.28 | 92.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/130">JUL-TUD-06b2044f-130</a>  |
-| P0009 | RUN62 | -4.673±2.248 | -2.030±0.976 | 0.144 | 31.43 | 65.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/74">JUL-TUD-06b2044f-74</a>  |
-| P0009 | RUN16 | -4.668±1.275 | -2.027±0.554 | 0.019 | 85.15 | 87.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| x12692 | RUN48 | -4.623±0.889 | -2.008±0.386 | 0.059 | 83.12 | 154.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| x12692 | RUN100 | -4.622±0.850 | -2.007±0.369 | 0.074 | 62.68 | 168.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN182 | -4.605±0.863 | -2.000±0.375 | 0.024 | 99.95 | 83.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/138">JUL-TUD-06b2044f-138</a>  |
-| P0009 | RUN6 | -4.561±1.375 | -1.981±0.597 | 0.180 | 24.51 | 108.5 |  Postera Entry not found: CCOC(C(=O)NCCc1ncon1)c1ccc(Cl)c(Cl)c1  |
-| P0009 | RUN79 | -4.556±1.368 | -1.979±0.594 | 0.180 | 25.72 | 64.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/90">JUL-TUD-06b2044f-90</a>  |
-| P0009 | RUN4 | -4.542±1.129 | -1.973±0.490 | 0.144 | 37.31 | 118.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/43">JUL-TUD-06b2044f-43</a>  |
-| P0009 | RUN112 | -4.462±2.253 | -1.938±0.978 | 0.012 | 101.25 | 62.6 |  Postera Entry not found: CC(C)(CNC(=O)Cc1ccc(Cl)c(Cl)c1)N1CCOCC1  |
-| P0009 | RUN171 | -4.406±2.781 | -1.913±1.208 | 0.015 | 102.3 | 73.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/133">JUL-TUD-06b2044f-133</a>  |
-| P0009 | RUN138 | -4.371±1.315 | -1.898±0.571 | 0.030 | 131.92 | 66.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/124">JUL-TUD-06b2044f-124</a>  |
-| P0009 | RUN2 | -4.346±1.106 | -1.887±0.480 | 0.047 | 62.63 | 93.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/43">JUL-TUD-06b2044f-43</a>  |
-| P0009 | RUN30 | -4.258±1.026 | -1.849±0.446 | 0.059 | 42.02 | 73.6 |  Postera Entry not found: CN1C(=O)NCC1C(=O)NCCc1cc(F)c(Cl)cc1Cl  |
-| P0009 | RUN152 | -4.213±0.960 | -1.830±0.417 | 0.012 | 94.94 | 81.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| x12692 | RUN50 | -4.118±0.730 | -1.788±0.317 | 0.092 | 85.89 | 155.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/89">JUL-TUD-06b2044f-89</a>  |
-| P0009 | RUN7 | -4.110±1.897 | -1.785±0.824 | 0.144 | 28.6 | 97.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| x12692 | RUN32 | -4.109±1.592 | -1.785±0.691 | 0.047 | 91.13 | 167.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/121">JUL-TUD-06b2044f-121</a>  |
-| P0009 | RUN128 | -4.073±0.941 | -1.769±0.409 | 0.024 | 102.73 | 72.3 |  Postera Entry not found: Cc1cc(Cl)c(Cl)cc1CC(=O)NCC1CCCN1C(=O)C1CCCO1  |
-| x12692 | RUN99 | -4.040±0.801 | -1.755±0.348 | 0.074 | 56.15 | 168.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN8 | -4.039±2.564 | -1.754±1.113 | 0.144 | 26.63 | 97.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| P0009 | RUN139 | -4.038±1.065 | -1.754±0.462 | 0.030 | 127.3 | 79.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/126">JUL-TUD-06b2044f-126</a>  |
-| P0009 | RUN158 | -4.017±1.465 | -1.745±0.636 | 0.006 | 95.12 | 64.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN140 | -3.943±0.969 | -1.712±0.421 | 0.019 | 119.59 | 72.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/126">JUL-TUD-06b2044f-126</a>  |
-| P0009 | RUN129 | -3.893±1.324 | -1.691±0.575 | 0.019 | 82.46 | 71.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/123">JUL-TUD-06b2044f-123</a>  |
-| P0009 | RUN103 | -3.873±1.017 | -1.682±0.442 | 0.012 | 103.97 | 77.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/117">JUL-TUD-06b2044f-117</a>  |
-| x12692 | RUN35 | -3.768±1.122 | -1.637±0.487 | 0.092 | 83.78 | 165.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN213 | -3.736±3.631 | -1.622±1.577 | 0.047 | 48.21 | 57.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/154">JUL-TUD-06b2044f-154</a>  |
-| P0009 | RUN183 | -3.718±1.394 | -1.615±0.605 | 0.030 | 86.23 | 65.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/140">JUL-TUD-06b2044f-140</a>  |
-| x12692 | RUN74 | -3.676±1.196 | -1.596±0.519 | 0.115 | 61.55 | 162.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| x12692 | RUN45 | -3.669±1.710 | -1.594±0.743 | 0.074 | 89.52 | 156.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/116">JUL-TUD-06b2044f-116</a>  |
-| x12692 | RUN65 | -3.649±1.530 | -1.585±0.664 | 0.092 | 61.13 | 167.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| P0009 | RUN96 | -3.596±0.861 | -1.562±0.374 | 0.352 | 14.57 | 83.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/101">JUL-TUD-06b2044f-101</a>  |
-| P0009 | RUN212 | -3.504±1.460 | -1.522±0.634 | 0.074 | 38.77 | 57.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/154">JUL-TUD-06b2044f-154</a>  |
-| P0009 | RUN14 | -3.458±1.397 | -1.502±0.607 | 0.019 | 89.42 | 91.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| P0009 | RUN36 | -3.454±1.898 | -1.500±0.824 | 0.092 | 31.16 | 63.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/69">JUL-TUD-06b2044f-69</a>  |
-| P0009 | RUN165 | -3.444±1.833 | -1.496±0.796 | 0.012 | 108.5 | 62.5 |  Postera Entry not found: COCC(C)N(Cc1cc(Cl)c(Cl)cc1F)C(=O)Cn1nnc2ccccc21  |
-| P0009 | RUN193 | -3.441±4.833 | -1.494±2.099 | 0.038 | 96.6 | 86.8 |  Postera Entry not found: Cc1noc(CCC(=O)N(C)Cc2cc(F)c(F)cc2Cl)n1  |
-| P0009 | RUN143 | -3.428±1.427 | -1.489±0.620 | 0.024 | 100.96 | 69.1 |  Postera Entry not found: CN(Cc1cc(Cl)c(Cl)cc1F)C(=O)CCN1CCOC1=O  |
-| P0009 | RUN102 | -3.383±0.991 | -1.469±0.430 | 0.012 | 99.64 | 88.9 |  Postera Entry not found: CC(=O)N1CCC(C(=O)N(C)Cc2ccc(Cl)c(Cl)c2)CC1  |
-| P0009 | RUN58 | -3.370±0.988 | -1.464±0.429 | 0.180 | 31.37 | 61.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/74">JUL-TUD-06b2044f-74</a>  |
-| P0009 | RUN49 | -3.351±1.498 | -1.455±0.651 | 0.225 | 37.34 | 60.1 |  Postera Entry not found: COc1cc(Cl)c(Cl)cc1CN1CCC(CCN2CCOCC2C)C1=O  |
-| P0009 | RUN176 | -3.349±0.665 | -1.455±0.289 | 0.015 | 93.49 | 78.0 |  Postera Entry not found: Cc1nnc(SCC(=O)NCc2ccc(Cl)c(Cl)c2)n1C1CC1  |
-| P0009 | RUN11 | -3.326±2.110 | -1.444±0.916 | 0.030 | 79.91 | 97.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| P0009 | RUN121 | -3.300±2.188 | -1.433±0.950 | 0.019 | 99.84 | 75.0 |  Postera Entry not found: O=C(Cc1ccc(Cl)c(Cl)c1)NCCC(=O)N1CCOCC1  |
-| P0009 | RUN189 | -3.280±1.248 | -1.425±0.542 | 0.012 | 88.01 | 72.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/144">JUL-TUD-06b2044f-144</a>  |
-| P0009 | RUN25 | -3.219±1.324 | -1.398±0.575 | 0.059 | 49.21 | 64.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/58">JUL-TUD-06b2044f-58</a>  |
-| P0009 | RUN148 | -3.219±1.347 | -1.398±0.585 | 0.038 | 107.44 | 67.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/128">JUL-TUD-06b2044f-128</a>  |
-| P0009 | RUN123 | -3.129±1.417 | -1.359±0.615 | 0.019 | 81.9 | 82.0 |  Postera Entry not found: O=C(Cc1ccc(Cl)c(Cl)c1)Nc1cnn(CCN2CCOCC2)c1  |
-| P0009 | RUN108 | -3.118±2.363 | -1.354±1.026 | 0.019 | 103.39 | 62.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/114">JUL-TUD-06b2044f-114</a>  |
-| P0009 | RUN101 | -2.978±0.948 | -1.293±0.412 | 0.008 | 89.59 | 82.8 |  Postera Entry not found: O=C(NCc1cc(F)cc2cnsc12)C(O)c1ccc(Cl)c(Cl)c1  |
-| P0009 | RUN72 | -2.925±1.418 | -1.270±0.616 | 0.225 | 26.87 | 58.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| P0009 | RUN160 | -2.897±1.525 | -1.258±0.662 | 0.012 | 89.43 | 64.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN5 | -2.885±0.960 | -1.253±0.417 | 0.092 | 30.68 | 106.5 |  Postera Entry not found: O=C(NCCn1nnnc1C1CC1)C1COc2cc(Cl)c(Cl)cc21  |
-| P0009 | RUN84 | -2.872±1.297 | -1.247±0.563 | 0.115 | 28.32 | 64.6 |  Postera Entry not found: Cn1cncc1CCNC(=O)C1(c2ccc(Cl)c(Cl)c2)CCOCC1  |
-| P0009 | RUN27 | -2.828±1.198 | -1.228±0.520 | 0.047 | 50.0 | 80.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/58">JUL-TUD-06b2044f-58</a>  |
-| P0009 | RUN201 | -2.828±0.957 | -1.228±0.415 | 0.030 | 56.85 | 77.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/152">JUL-TUD-06b2044f-152</a>  |
-| P0009 | RUN118 | -2.818±2.040 | -1.224±0.886 | 0.047 | 85.66 | 70.2 |  Postera Entry not found: O=C(NCc1ccc(Cl)c(Cl)c1)NCC1COCCO1  |
-| x12692 | RUN68 | -2.803±1.609 | -1.217±0.699 | 0.180 | 54.65 | 164.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN170 | -2.771±1.727 | -1.203±0.750 | 0.012 | 101.38 | 60.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/133">JUL-TUD-06b2044f-133</a>  |
-| P0009 | RUN145 | -2.679±1.116 | -1.163±0.485 | 0.030 | 129.56 | 67.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/127">JUL-TUD-06b2044f-127</a>  |
-| P0009 | RUN88 | -2.652±4.158 | -1.152±1.806 | 0.281 | 21.6 | 82.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| P0009 | RUN32 | -2.631±0.879 | -1.143±0.382 | 0.059 | 38.58 | 77.9 |  Postera Entry not found: CN1C(=O)NCC1C(=O)NCCc1cc(F)c(Cl)cc1Cl  |
-| x12692 | RUN104 | -2.622±0.743 | -1.139±0.323 | 0.047 | 64.46 | 169.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/67">JUL-TUD-06b2044f-67</a>  |
-| P0009 | RUN34 | -2.574±1.076 | -1.118±0.467 | 0.115 | 32.73 | 63.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/69">JUL-TUD-06b2044f-69</a>  |
-| P0009 | RUN110 | -2.557±6.020 | -1.110±2.614 | 0.024 | 82.74 | 62.9 |  Postera Entry not found: CC(C)(CNC(=O)Cc1ccc(Cl)c(Cl)c1)N1CCOCC1  |
-| P0009 | RUN154 | -2.499±1.255 | -1.085±0.545 | 0.012 | 93.43 | 67.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN104 | -2.455±0.888 | -1.066±0.386 | 0.019 | 86.53 | 67.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/117">JUL-TUD-06b2044f-117</a>  |
-| P0009 | RUN173 | -2.358±1.587 | -1.024±0.689 | 0.024 | 84.32 | 73.2 |  Postera Entry not found: COc1c(CN(C)C(=O)C2CCN(C(=O)C3CCCC3)C2)ccc(Cl)c1Cl  |
-| P0009 | RUN214 | -2.354±2.610 | -1.022±1.134 | 0.059 | 51.23 | 73.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/154">JUL-TUD-06b2044f-154</a>  |
-| x12692 | RUN106 | -2.335±0.823 | -1.014±0.357 | 0.092 | 63.82 | 170.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN113 | -2.333±1.028 | -1.013±0.446 | 0.015 | 84.81 | 63.7 |  Postera Entry not found: CC(C)(CNC(=O)Cc1ccc(Cl)c(Cl)c1)N1CCOCC1  |
-| P0009 | RUN17 | -2.309±1.790 | -1.003±0.778 | 0.019 | 88.49 | 88.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| P0009 | RUN45 | -2.296±1.132 | -0.997±0.492 | 0.074 | 41.79 | 68.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/80">JUL-TUD-06b2044f-80</a>  |
-| P0009 | RUN161 | -2.290±1.770 | -0.994±0.769 | 0.012 | 91.71 | 80.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/130">JUL-TUD-06b2044f-130</a>  |
-| x12692 | RUN52 | -2.277±0.507 | -0.989±0.220 | 0.059 | 95.66 | 176.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/48">JUL-TUD-06b2044f-48</a>  |
-| P0009 | RUN135 | -2.223±0.718 | -0.965±0.312 | 0.015 | 113.13 | 89.4 |  Postera Entry not found: CN(Cc1ccc(Cl)c(Cl)c1)C(=O)C1COc2ncccc21  |
-| P0009 | RUN141 | -2.158±2.000 | -0.937±0.869 | 0.030 | 84.89 | 69.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/126">JUL-TUD-06b2044f-126</a>  |
-| P0009 | RUN93 | -2.071±1.551 | -0.899±0.674 | 0.687 | 13.61 | 71.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| P0009 | RUN92 | -2.066±1.248 | -0.897±0.542 | 0.550 | 14.05 | 66.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| x12692 | RUN96 | -2.042±0.673 | -0.887±0.292 | 0.092 | 64.05 | 170.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/108">JUL-TUD-06b2044f-108</a>  |
-| P0009 | RUN120 | -2.015±2.740 | -0.875±1.190 | 0.059 | 97.53 | 84.4 |  Postera Entry not found: O=C(COc1cc(F)c(Cl)cc1Cl)NCCN1CCOCC1  |
-| P0009 | RUN19 | -2.000±1.517 | -0.869±0.659 | 0.024 | 87.71 | 93.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| P0009 | RUN202 | -1.977±0.754 | -0.859±0.328 | 0.038 | 51.74 | 77.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/155">JUL-TUD-06b2044f-155</a>  |
-| P0009 | RUN209 | -1.867±1.917 | -0.811±0.833 | 0.059 | 53.44 | 72.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/157">JUL-TUD-06b2044f-157</a>  |
-| P0009 | RUN69 | -1.778±1.766 | -0.772±0.767 | 0.180 | 25.35 | 57.9 |  Postera Entry not found: Cc1nnnn1CCNC(=O)C1(C)COc2cc(Cl)c(Cl)cc21  |
-| P0009 | RUN204 | -1.777±0.885 | -0.772±0.385 | 0.038 | 49.42 | 76.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/155">JUL-TUD-06b2044f-155</a>  |
-| P0009 | RUN70 | -1.729±1.496 | -0.751±0.650 | 0.180 | 25.18 | 58.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| x12692 | RUN108 | -1.685±0.949 | -0.732±0.412 | 0.144 | 59.89 | 183.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/93">JUL-TUD-06b2044f-93</a>  |
-| P0009 | RUN203 | -1.659±1.165 | -0.720±0.506 | 0.038 | 51.85 | 76.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/155">JUL-TUD-06b2044f-155</a>  |
-| x12692 | RUN89 | -1.555±0.697 | -0.676±0.303 | 0.115 | 61.19 | 212.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/67">JUL-TUD-06b2044f-67</a>  |
-| P0009 | RUN163 | -1.526±1.671 | -0.663±0.726 | 0.015 | 100.15 | 65.8 |  Postera Entry not found: Cc1nnc(CNC(=O)N(C)Cc2ccc(Cl)c(Cl)c2)o1  |
-| x12692 | RUN85 | -1.364±0.540 | -0.592±0.235 | 0.115 | 60.81 | 191.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/92">JUL-TUD-06b2044f-92</a>  |
-| P0009 | RUN41 | -1.360±0.813 | -0.591±0.353 | 0.115 | 44.5 | 80.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/72">JUL-TUD-06b2044f-72</a>  |
-| P0009 | RUN210 | -1.349±2.085 | -0.586±0.906 | 0.074 | 46.99 | 71.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/157">JUL-TUD-06b2044f-157</a>  |
-| P0009 | RUN188 | -1.316±1.590 | -0.572±0.691 | 0.010 | 95.82 | 74.5 |  Postera Entry not found: Cc1cn(CC(=O)N(C)C(=O)Cc2cc(F)c(Cl)cc2Cl)nn1  |
-| P0009 | RUN166 | -1.314±1.472 | -0.570±0.639 | 0.015 | 116.85 | 79.0 |  Postera Entry not found: COCC(C)N(Cc1cc(Cl)c(Cl)cc1F)C(=O)Cn1nnc2ccccc21  |
-| P0009 | RUN51 | -1.291±1.846 | -0.561±0.802 | 0.180 | 41.36 | 60.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| P0009 | RUN31 | -1.230±0.865 | -0.534±0.376 | 0.059 | 40.08 | 73.8 |  Postera Entry not found: CN1C(=O)NCC1C(=O)NCCc1cc(F)c(Cl)cc1Cl  |
-| P0009 | RUN98 | -1.184±0.815 | -0.514±0.354 | 0.440 | 13.97 | 74.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/99">JUL-TUD-06b2044f-99</a>  |
-| P0009 | RUN10 | -1.178±1.776 | -0.512±0.771 | 0.012 | 97.48 | 97.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| P0009 | RUN174 | -1.170±2.311 | -0.508±1.004 | 0.030 | 97.85 | 54.7 |  Postera Entry not found: COc1c(CN(C)C(=O)C2CCN(C(=O)C3CCCC3)C2)ccc(Cl)c1Cl  |
-| P0009 | RUN172 | -1.052±1.629 | -0.457±0.707 | 0.030 | 81.61 | 73.6 |  Postera Entry not found: COc1c(CN(C)C(=O)C2CCN(C(=O)C3CCCC3)C2)ccc(Cl)c1Cl  |
-| P0009 | RUN157 | -1.026±1.723 | -0.446±0.748 | 0.019 | 78.76 | 64.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN29 | -0.993±1.019 | -0.431±0.443 | 0.038 | 46.87 | 73.6 |  Postera Entry not found: CN1C(=O)NCC1C(=O)NCCc1cc(F)c(Cl)cc1Cl  |
-| P0009 | RUN146 | -0.974±1.178 | -0.423±0.512 | 0.038 | 127.91 | 67.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/128">JUL-TUD-06b2044f-128</a>  |
-| P0009 | RUN100 | -0.941±0.942 | -0.409±0.409 | 0.015 | 99.11 | 74.7 |  Postera Entry not found: O=C(Nn1cncn1)C1CCN1C(=O)C1Cc2cc(Cl)c(Cl)cc21  |
-| P0009 | RUN39 | -0.843±1.072 | -0.366±0.466 | 0.144 | 38.25 | 62.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/71">JUL-TUD-06b2044f-71</a>  |
-| x12692 | RUN105 | -0.707±0.703 | -0.307±0.305 | 0.074 | 63.39 | 168.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN137 | -0.599±0.953 | -0.260±0.414 | 0.015 | 95.87 | 67.4 |  Postera Entry not found: CCOc1cc(Cl)c(Cl)cc1CN(C)C(=O)C1COc2ncccc21  |
-| P0009 | RUN68 | -0.589±1.136 | -0.256±0.493 | 0.115 | 29.18 | 70.7 |  Postera Entry not found: Cc1nn(Cc2c(C)noc2C)cc1NC(=O)Cc1ccc(Cl)c(Cl)c1  |
-| P0009 | RUN95 | -0.534±1.076 | -0.232±0.467 | 0.440 | 12.24 | 84.0 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/101">JUL-TUD-06b2044f-101</a>  |
-| P0009 | RUN66 | -0.511±1.086 | -0.222±0.472 | 0.144 | 26.06 | 74.8 |  Postera Entry not found: CN1CCc2c(cncc2C(=O)N2CCN(Cc3ccc(Cl)c(Cl)c3)C2)C1  |
-| P0009 | RUN179 | -0.427±1.195 | -0.185±0.519 | 0.010 | 95.66 | 66.7 |  Postera Entry not found: Cc1ccc(C(=O)N2CCCC(C(=O)NCc3ccc(Cl)c(Cl)c3C)C2)cn1  |
-| P0009 | RUN67 | -0.419±3.644 | -0.182±1.582 | 0.144 | 29.46 | 66.1 |  Postera Entry not found: O=C(Cn1nnc2cccnc21)NCCc1cc(F)c(Cl)cc1Cl  |
-| P0009 | RUN115 | -0.352±1.070 | -0.153±0.465 | 0.015 | 85.61 | 64.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/118">JUL-TUD-06b2044f-118</a>  |
-| P0009 | RUN114 | -0.300±1.058 | -0.130±0.459 | 0.012 | 85.76 | 62.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/118">JUL-TUD-06b2044f-118</a>  |
-| P0009 | RUN169 | -0.225±1.577 | -0.098±0.685 | 0.012 | 108.4 | 60.1 |  Postera Entry not found: COCC(C)N(Cc1cc(Cl)c(Cl)cc1F)C(=O)Cn1nnc2ccccc21  |
-| P0009 | RUN52 | -0.191±1.569 | -0.083±0.681 | 0.144 | 35.77 | 60.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| x12692 | RUN79 | -0.085±1.109 | -0.037±0.482 | 0.144 | 54.74 | 148.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/53">JUL-TUD-06b2044f-53</a>  |
-| x12692 | RUN103 | 0.269±5.993 | 0.117±2.603 | 0.180 | 59.67 | 176.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/67">JUL-TUD-06b2044f-67</a>  |
-| P0009 | RUN40 | 0.339±0.999 | 0.147±0.434 | 0.144 | 42.87 | 63.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/72">JUL-TUD-06b2044f-72</a>  |
-| P0009 | RUN43 | 0.348±1.240 | 0.151±0.539 | 0.115 | 35.75 | 70.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/80">JUL-TUD-06b2044f-80</a>  |
-| P0009 | RUN87 | 0.452±1.946 | 0.196±0.845 | 0.180 | 27.12 | 81.9 |  Postera Entry not found: O=C(Nc1cn[nH]c1)C1CCN(Cc2ccc(Cl)c(Cl)c2)C1  |
-| P0009 | RUN46 | 0.495±0.809 | 0.215±0.351 | 0.074 | 43.92 | 82.5 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/80">JUL-TUD-06b2044f-80</a>  |
-| P0009 | RUN167 | 0.549±1.952 | 0.238±0.848 | 0.038 | 92.08 | 79.6 |  Postera Entry not found: COCC(C)N(Cc1cc(Cl)c(Cl)cc1F)C(=O)Cn1nnc2ccccc21  |
-| P0009 | RUN94 | 0.616±3.646 | 0.268±1.583 | 0.352 | 14.63 | 73.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| P0009 | RUN82 | 0.717±2.009 | 0.311±0.873 | 0.144 | 28.48 | 61.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/90">JUL-TUD-06b2044f-90</a>  |
-| P0009 | RUN206 | 0.775±1.583 | 0.336±0.688 | 0.047 | 51.1 | 77.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/147">JUL-TUD-06b2044f-147</a>  |
-| P0009 | RUN91 | 0.979±1.598 | 0.425±0.694 | 0.550 | 13.23 | 65.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/100">JUL-TUD-06b2044f-100</a>  |
-| P0009 | RUN44 | 1.148±1.038 | 0.499±0.451 | 0.115 | 41.38 | 71.4 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/80">JUL-TUD-06b2044f-80</a>  |
-| P0009 | RUN111 | 1.170±2.777 | 0.508±1.206 | 0.030 | 96.31 | 62.5 |  Postera Entry not found: CC(C)(CNC(=O)Cc1ccc(Cl)c(Cl)c1)N1CCOCC1  |
-| x12692 | RUN97 | 1.513±0.711 | 0.657±0.309 | 0.092 | 55.81 | 169.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/109">JUL-TUD-06b2044f-109</a>  |
-| P0009 | RUN180 | 1.562±1.554 | 0.678±0.675 | 0.030 | 120.76 | 69.5 |  Postera Entry not found: Cc1cc(CN2CCN(C(C)Cc3cc(Cl)cc(F)c3Cl)C2=O)no1  |
-| x12692 | RUN34 | 1.628±1.231 | 0.707±0.535 | 0.115 | 82.67 | 167.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN207 | 1.748±1.582 | 0.759±0.687 | 0.047 | 47.46 | 72.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/157">JUL-TUD-06b2044f-157</a>  |
-| P0009 | RUN61 | 1.820±1.366 | 0.791±0.593 | 0.225 | 29.99 | 60.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/74">JUL-TUD-06b2044f-74</a>  |
-| P0009 | RUN26 | 1.907±1.090 | 0.828±0.473 | 0.059 | 42.99 | 71.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/58">JUL-TUD-06b2044f-58</a>  |
-| P0009 | RUN151 | 2.031±1.197 | 0.882±0.520 | 0.038 | 101.19 | 63.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/128">JUL-TUD-06b2044f-128</a>  |
-| P0009 | RUN81 | 2.051±2.712 | 0.891±1.178 | 0.180 | 24.75 | 62.9 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/90">JUL-TUD-06b2044f-90</a>  |
-| P0009 | RUN75 | 2.781±1.281 | 1.208±0.556 | 0.225 | 24.76 | 73.8 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/70">JUL-TUD-06b2044f-70</a>  |
-| x12692 | RUN41 | 2.810±1.510 | 1.221±0.656 | 0.092 | 79.63 | 165.2 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/54">JUL-TUD-06b2044f-54</a>  |
-| P0009 | RUN159 | 3.050±1.304 | 1.325±0.566 | 0.019 | 95.6 | 64.1 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/129">JUL-TUD-06b2044f-129</a>  |
-| P0009 | RUN9 | 3.104±1.202 | 1.348±0.522 | 0.440 | 15.83 | 122.6 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/52">JUL-TUD-06b2044f-52</a>  |
-| P0009 | RUN122 | 3.625±4.100 | 1.574±1.781 | 0.047 | 79.32 | 68.3 |  Postera Entry not found: O=C(Cc1ccc(Cl)c(Cl)c1)NCCC(=O)N1CCOCC1  |
-| P0009 | RUN53 | 3.882±1.397 | 1.686±0.607 | 0.144 | 41.32 | 59.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/73">JUL-TUD-06b2044f-73</a>  |
-| P0009 | RUN83 | 4.655±1.705 | 2.022±0.740 | 0.115 | 28.72 | 64.1 |  Postera Entry not found: Cn1cncc1CCNC(=O)C1(c2ccc(Cl)c(Cl)c2)CCOCC1  |
-| P0009 | RUN127 | 7.074±2.074 | 3.072±0.901 | 0.059 | 100.22 | 61.3 |  Postera Entry not found: CC(CN1CCN(Cc2ccc(Cl)c(Cl)c2)C1=O)Cn1cncn1  |
+| x12692 | RUN47 | -36.550±8.664 | -15.873±3.763 | 0.059 | 95.23 | 208.3 |  -36.550±8.664  |
+| x12692 | RUN23 | -34.051±3.662 | -14.788±1.590 | 0.030 | 99.2 | 184.7 |  -34.051±3.662  |
+| x12692 | RUN111 | -33.223±6.372 | -14.429±2.767 | 0.144 | 57.47 | 161.7 |  -33.223±6.372  |
+| x12692 | RUN6 | -31.743±3.885 | -13.786±1.687 | 0.038 | 98.69 | 216.3 |  -31.743±3.885  |
+| x12692 | RUN18 | -31.476±7.692 | -13.670±3.341 | 0.038 | 91.4 | 206.2 |  -31.476±7.692  |
+| x12692 | RUN118 | -31.345±2.024 | -13.613±0.879 | 0.059 | 67.26 | 175.2 |  -31.345±2.024  |
+| x12692 | RUN2 | -31.210±3.440 | -13.554±1.494 | 0.038 | 98.51 | 217.2 |  -31.210±3.440  |
+| x12692 | RUN11 | -29.667±2.997 | -12.884±1.302 | 0.038 | 100.38 | 199.3 |  -29.667±2.997  |
+| x12692 | RUN1 | -28.728±4.258 | -12.477±1.849 | 0.038 | 98.01 | 180.4 |  -28.728±4.258  |
+| x12692 | RUN38 | -28.491±4.379 | -12.373±1.902 | 0.047 | 93.38 | 206.4 |  -28.491±4.379  |
+| x12692 | RUN9 | -28.173±3.316 | -12.235±1.440 | 0.038 | 98.18 | 217.1 |  -28.173±3.316  |
+| x12692 | RUN88 | -27.687±6.115 | -12.024±2.656 | 0.180 | 57.69 | 160.3 |  -27.687±6.115  |
+| x12692 | RUN126 | -26.899±6.293 | -11.682±2.733 | 0.115 | 56.72 | 175.4 |  -26.899±6.293  |
+| x12692 | RUN127 | -26.822±3.509 | -11.649±1.524 | 0.115 | 59.72 | 160.2 |  -26.822±3.509  |
+| x12692 | RUN122 | -26.540±6.619 | -11.526±2.875 | 0.074 | 67.35 | 212.1 |  -26.540±6.619  |
+| x12692 | RUN14 | -26.417±0.695 | -11.473±0.302 | 0.019 | 96.07 | 172.9 |  -26.417±0.695  |
+| x12692 | RUN116 | -25.774±1.860 | -11.193±0.808 | 0.180 | 51.56 | 160.8 |  -25.774±1.860  |
+| x12692 | RUN113 | -25.745±7.597 | -11.181±3.300 | 0.180 | 57.07 | 161.7 |  -25.745±7.597  |
+| x12692 | RUN22 | -25.737±0.741 | -11.177±0.322 | 0.038 | 89.89 | 195.8 |  -25.737±0.741  |
+| x12692 | RUN61 | -25.568±5.230 | -11.104±2.272 | 0.059 | 95.0 | 175.0 |  -25.568±5.230  |
+| x12692 | RUN36 | -25.003±0.940 | -10.859±0.408 | 0.038 | 97.6 | 179.7 |  -25.003±0.940  |
+| x12692 | RUN24 | -24.831±0.714 | -10.784±0.310 | 0.030 | 88.12 | 160.7 |  -24.831±0.714  |
+| x12692 | RUN0 | -24.828±3.316 | -10.783±1.440 | 0.038 | 97.86 | 180.0 |  -24.828±3.316  |
+| x12692 | RUN5 | -24.266±3.035 | -10.539±1.318 | 0.038 | 98.07 | 216.1 |  -24.266±3.035  |
+| x12692 | RUN60 | -23.546±5.233 | -10.226±2.273 | 0.047 | 92.29 | 175.7 |  -23.546±5.233  |
+| x12692 | RUN19 | -23.219±9.090 | -10.084±3.948 | 0.047 | 92.42 | 170.3 |  -23.219±9.090  |
+| x12692 | RUN39 | -23.194±4.286 | -10.073±1.861 | 0.074 | 90.72 | 168.0 |  -23.194±4.286  |
+| x12692 | RUN4 | -23.048±3.415 | -10.010±1.483 | 0.047 | 96.1 | 186.5 |  -23.048±3.415  |
+| x12692 | RUN72 | -23.010±0.629 | -9.993±0.273 | 0.074 | 67.0 | 192.5 |  -23.010±0.629  |
+| x12692 | RUN75 | -22.915±5.737 | -9.952±2.492 | 0.115 | 55.09 | 160.0 |  -22.915±5.737  |
+| x12692 | RUN90 | -22.147±3.386 | -9.618±1.470 | 0.092 | 58.69 | 181.9 |  -22.147±3.386  |
+| x12692 | RUN117 | -21.589±5.160 | -9.376±2.241 | 0.144 | 56.34 | 158.4 |  -21.589±5.160  |
+| x12692 | RUN120 | -21.452±5.514 | -9.316±2.395 | 0.059 | 66.96 | 187.7 |  -21.452±5.514  |
+| x12692 | RUN121 | -21.393±4.641 | -9.291±2.016 | 0.059 | 65.49 | 176.8 |  -21.393±4.641  |
+| x12692 | RUN3 | -21.350±4.644 | -9.272±2.017 | 0.038 | 96.35 | 180.7 |  -21.350±4.644  |
+| x12692 | RUN57 | -21.201±1.951 | -9.207±0.847 | 0.074 | 89.45 | 182.8 |  -21.201±1.951  |
+| x12692 | RUN29 | -21.020±3.296 | -9.129±1.432 | 0.047 | 91.24 | 170.2 |  -21.020±3.296  |
+| x12692 | RUN67 | -20.753±1.602 | -9.013±0.696 | 0.144 | 63.54 | 155.9 |  -20.753±1.602  |
+| x12692 | RUN7 | -20.500±3.289 | -8.903±1.428 | 0.038 | 96.32 | 180.7 |  -20.500±3.289  |
+| x12692 | RUN81 | -20.221±1.567 | -8.782±0.681 | 0.144 | 62.84 | 156.3 |  -20.221±1.567  |
+| x12692 | RUN56 | -20.020±2.325 | -8.695±1.010 | 0.074 | 89.28 | 211.7 |  -20.020±2.325  |
+| x12692 | RUN107 | -19.029±6.045 | -8.264±2.625 | 0.092 | 63.81 | 180.5 |  -19.029±6.045  |
+| x12692 | RUN17 | -18.662±3.281 | -8.105±1.425 | 0.074 | 90.89 | 169.3 |  -18.662±3.281  |
+| x12692 | RUN71 | -18.528±1.421 | -8.046±0.617 | 0.092 | 62.38 | 149.0 |  -18.528±1.421  |
+| x12692 | RUN62 | -18.451±0.573 | -8.013±0.249 | 0.038 | 92.92 | 173.1 |  -18.451±0.573  |
+| x12692 | RUN28 | -17.544±3.888 | -7.619±1.689 | 0.059 | 95.02 | 170.5 |  -17.544±3.888  |
+| x12692 | RUN112 | -17.149±0.413 | -7.448±0.179 | 0.047 | 71.21 | 202.7 |  -17.149±0.413  |
+| x12692 | RUN102 | -16.115±5.386 | -6.999±2.339 | 0.115 | 62.46 | 160.9 |  -16.115±5.386  |
+| x12692 | RUN123 | -15.854±0.406 | -6.885±0.177 | 0.047 | 70.26 | 193.7 |  -15.854±0.406  |
+| x12692 | RUN8 | -15.827±3.922 | -6.873±1.703 | 0.047 | 96.85 | 179.2 |  -15.827±3.922  |
+| P0009 | RUN119 | -15.682±1.771 | -6.810±0.769 | 0.019 | 86.16 | 68.9 |  -15.682±1.771  |
+| x12692 | RUN83 | -15.604±1.638 | -6.777±0.711 | 0.092 | 64.4 | 220.0 |  -15.604±1.638  |
+| x12692 | RUN58 | -15.315±6.531 | -6.651±2.836 | 0.038 | 93.58 | 175.3 |  -15.315±6.531  |
+| x12692 | RUN80 | -15.172±3.612 | -6.589±1.568 | 0.074 | 63.45 | 180.2 |  -15.172±3.612  |
+| x12692 | RUN49 | -14.812±2.179 | -6.433±0.946 | 0.059 | 93.84 | 162.1 |  -14.812±2.179  |
+| x12692 | RUN66 | -14.763±1.569 | -6.412±0.681 | 0.144 | 64.09 | 164.9 |  -14.763±1.569  |
+| P0009 | RUN194 | -14.749±1.448 | -6.405±0.629 | 0.092 | 45.42 | 60.9 |  -14.749±1.448  |
+| x12692 | RUN86 | -14.687±4.297 | -6.379±1.866 | 0.092 | 63.24 | 181.8 |  -14.687±4.297  |
+| x12692 | RUN27 | -14.622±3.487 | -6.350±1.514 | 0.047 | 95.72 | 171.0 |  -14.622±3.487  |
+| x12692 | RUN43 | -14.528±0.830 | -6.309±0.360 | 0.038 | 89.99 | 166.0 |  -14.528±0.830  |
+| x12692 | RUN13 | -14.440±2.643 | -6.271±1.148 | 0.092 | 92.93 | 162.9 |  -14.440±2.643  |
+| x12692 | RUN77 | -14.419±3.438 | -6.262±1.493 | 0.115 | 64.42 | 198.7 |  -14.419±3.438  |
+| P0009 | RUN20 | -14.303±1.487 | -6.212±0.646 | 0.059 | 42.06 | 122.7 |  -14.303±1.487  |
+| x12692 | RUN53 | -14.170±1.113 | -6.154±0.483 | 0.074 | 83.84 | 165.3 |  -14.170±1.113  |
+| x12692 | RUN15 | -13.872±0.567 | -6.024±0.246 | 0.030 | 97.7 | 188.3 |  -13.872±0.567  |
+| x12692 | RUN109 | -13.425±3.170 | -5.830±1.377 | 0.180 | 58.34 | 165.7 |  -13.425±3.170  |
+| x12692 | RUN64 | -13.402±0.716 | -5.820±0.311 | 0.144 | 57.8 | 161.4 |  -13.402±0.716  |
+| x12692 | RUN10 | -13.392±1.400 | -5.816±0.608 | 0.047 | 87.66 | 180.5 |  -13.392±1.400  |
+| x12692 | RUN119 | -13.175±3.291 | -5.722±1.429 | 0.047 | 67.99 | 173.6 |  -13.175±3.291  |
+| x12692 | RUN46 | -13.114±0.391 | -5.696±0.170 | 0.047 | 100.11 | 232.7 |  -13.114±0.391  |
+| x12692 | RUN82 | -13.111±6.028 | -5.694±2.618 | 0.115 | 60.85 | 196.2 |  -13.111±6.028  |
+| P0009 | RUN33 | -12.941±0.000 | -5.620±0.000 | 0.059 | 44.46 | 64.3 |  -12.941±0.000  |
+| x12692 | RUN125 | -12.860±4.863 | -5.585±2.112 | 0.115 | 62.65 | 168.0 |  -12.860±4.863  |
+| x12692 | RUN69 | -12.782±7.399 | -5.551±3.213 | 0.180 | 58.34 | 160.8 |  -12.782±7.399  |
+| x12692 | RUN37 | -12.572±1.298 | -5.460±0.564 | 0.092 | 89.15 | 189.8 |  -12.572±1.298  |
+| x12692 | RUN40 | -12.434±4.555 | -5.400±1.978 | 0.059 | 89.3 | 165.5 |  -12.434±4.555  |
+| x12692 | RUN25 | -12.106±2.093 | -5.257±0.909 | 0.059 | 88.6 | 155.9 |  -12.106±2.093  |
+| x12692 | RUN20 | -11.832±5.132 | -5.139±2.229 | 0.038 | 91.97 | 189.7 |  -11.832±5.132  |
+| x12692 | RUN51 | -11.724±0.737 | -5.092±0.320 | 0.074 | 82.25 | 191.4 |  -11.724±0.737  |
+| x12692 | RUN44 | -11.608±1.044 | -5.041±0.454 | 0.059 | 82.68 | 155.1 |  -11.608±1.044  |
+| P0009 | RUN86 | -11.516±8.344 | -5.001±3.624 | 0.144 | 25.51 | 80.4 |  -11.516±8.344  |
+| P0009 | RUN35 | -11.373±1.282 | -4.939±0.557 | 0.144 | 29.31 | 63.1 |  -11.373±1.282  |
+| x12692 | RUN16 | -11.370±2.122 | -4.938±0.922 | 0.059 | 89.34 | 156.3 |  -11.370±2.122  |
+| x12692 | RUN30 | -11.236±1.665 | -4.880±0.723 | 0.092 | 89.83 | 157.0 |  -11.236±1.665  |
+| x12692 | RUN21 | -10.984±1.484 | -4.770±0.644 | 0.059 | 89.74 | 156.4 |  -10.984±1.484  |
+| x12692 | RUN124 | -10.966±0.274 | -4.763±0.119 | 0.092 | 69.71 | 232.1 |  -10.966±0.274  |
+| P0009 | RUN38 | -10.926±1.847 | -4.745±0.802 | 0.144 | 34.69 | 61.7 |  -10.926±1.847  |
+| P0009 | RUN106 | -10.818±1.420 | -4.698±0.617 | 0.030 | 86.18 | 77.9 |  -10.818±1.420  |
+| x12692 | RUN70 | -10.638±0.811 | -4.620±0.352 | 0.144 | 59.1 | 154.8 |  -10.638±0.811  |
+| x12692 | RUN101 | -10.553±0.755 | -4.583±0.328 | 0.115 | 62.61 | 210.0 |  -10.553±0.755  |
+| x12692 | RUN110 | -10.526±0.656 | -4.571±0.285 | 0.092 | 65.35 | 178.5 |  -10.526±0.656  |
+| P0009 | RUN21 | -10.320±1.195 | -4.482±0.519 | 0.059 | 41.91 | 122.2 |  -10.320±1.195  |
+| x12692 | RUN91 | -10.267±1.715 | -4.459±0.745 | 0.115 | 61.9 | 156.0 |  -10.267±1.715  |
+| x12692 | RUN87 | -10.098±0.594 | -4.386±0.258 | 0.074 | 64.35 | 173.6 |  -10.098±0.594  |
+| P0009 | RUN50 | -10.069±1.486 | -4.373±0.645 | 0.115 | 35.28 | 61.8 |  -10.069±1.486  |
+| x12692 | RUN115 | -9.968±1.391 | -4.329±0.604 | 0.144 | 60.68 | 161.0 |  -9.968±1.391  |
+| x12692 | RUN55 | -9.916±1.742 | -4.307±0.757 | 0.074 | 84.51 | 162.6 |  -9.916±1.742  |
+| x12692 | RUN95 | -9.775±0.636 | -4.245±0.276 | 0.074 | 66.37 | 178.0 |  -9.775±0.636  |
+| P0009 | RUN198 | -9.747±3.499 | -4.233±1.520 | 0.092 | 46.77 | 64.1 |  -9.747±3.499  |
+| P0009 | RUN200 | -9.639±2.686 | -4.186±1.167 | 0.059 | 56.44 | 63.7 |  -9.639±2.686  |
+| x12692 | RUN114 | -9.549±2.671 | -4.147±1.160 | 0.115 | 65.31 | 159.0 |  -9.549±2.671  |
+| P0009 | RUN150 | -9.367±1.277 | -4.068±0.555 | 0.047 | 74.22 | 67.0 |  -9.367±1.277  |
+| x12692 | RUN26 | -9.346±1.205 | -4.059±0.523 | 0.059 | 88.46 | 165.9 |  -9.346±1.205  |
+| P0009 | RUN192 | -9.265±1.476 | -4.024±0.641 | 0.019 | 90.71 | 74.0 |  -9.265±1.476  |
+| x12692 | RUN73 | -9.229±0.769 | -4.008±0.334 | 0.047 | 69.47 | 183.4 |  -9.229±0.769  |
+| x12692 | RUN54 | -9.125±0.972 | -3.963±0.422 | 0.059 | 86.24 | 165.9 |  -9.125±0.972  |
+| P0009 | RUN76 | -9.123±1.359 | -3.962±0.590 | 0.144 | 24.31 | 63.1 |  -9.123±1.359  |
+| x12692 | RUN76 | -9.027±0.581 | -3.921±0.252 | 0.074 | 61.12 | 168.2 |  -9.027±0.581  |
+| P0009 | RUN22 | -8.635±0.948 | -3.750±0.412 | 0.115 | 59.36 | 120.9 |  -8.635±0.948  |
+| x12692 | RUN31 | -8.555±6.308 | -3.715±2.740 | 0.030 | 94.3 | 189.9 |  -8.555±6.308  |
+| P0009 | RUN147 | -8.380±1.313 | -3.639±0.570 | 0.010 | 100.22 | 67.4 |  -8.380±1.313  |
+| P0009 | RUN37 | -8.178±6.942 | -3.552±3.015 | 0.092 | 33.02 | 62.7 |  -8.178±6.942  |
+| P0009 | RUN77 | -8.109±3.281 | -3.522±1.425 | 0.225 | 24.89 | 79.4 |  -8.109±3.281  |
+| P0009 | RUN132 | -8.069±4.975 | -3.504±2.161 | 0.038 | 89.32 | 59.0 |  -8.069±4.975  |
+| P0009 | RUN73 | -8.042±2.342 | -3.493±1.017 | 0.180 | 24.93 | 58.3 |  -8.042±2.342  |
+| P0009 | RUN54 | -8.007±1.741 | -3.477±0.756 | 0.225 | 37.7 | 71.5 |  -8.007±1.741  |
+| P0009 | RUN196 | -7.951±1.194 | -3.453±0.518 | 0.047 | 53.67 | 62.6 |  -7.951±1.194  |
+| P0009 | RUN97 | -7.906±4.673 | -3.434±2.029 | 0.352 | 13.76 | 70.0 |  -7.906±4.673  |
+| P0009 | RUN149 | -7.882±1.239 | -3.423±0.538 | 0.015 | 110.1 | 67.1 |  -7.882±1.239  |
+| x12692 | RUN63 | -7.841±1.495 | -3.405±0.649 | 0.092 | 86.02 | 165.2 |  -7.841±1.495  |
+| P0009 | RUN155 | -7.779±1.019 | -3.378±0.443 | 0.015 | 84.61 | 64.0 |  -7.779±1.019  |
+| x12692 | RUN59 | -7.633±0.917 | -3.315±0.398 | 0.074 | 86.35 | 167.2 |  -7.633±0.917  |
+| x12692 | RUN84 | -7.505±0.901 | -3.260±0.391 | 0.092 | 61.98 | 174.9 |  -7.505±0.901  |
+| P0009 | RUN156 | -7.487±0.871 | -3.252±0.378 | 0.012 | 80.9 | 81.3 |  -7.487±0.871  |
+| P0009 | RUN130 | -7.485±1.263 | -3.251±0.549 | 0.012 | 89.98 | 73.4 |  -7.485±1.263  |
+| P0009 | RUN0 | -7.396±1.128 | -3.212±0.490 | 0.019 | 94.95 | 90.9 |  -7.396±1.128  |
+| P0009 | RUN23 | -7.284±1.062 | -3.163±0.461 | 0.074 | 56.5 | 97.6 |  -7.284±1.062  |
+| x12692 | RUN78 | -7.245±1.808 | -3.146±0.785 | 0.144 | 62.31 | 220.0 |  -7.245±1.808  |
+| P0009 | RUN205 | -7.230±1.340 | -3.140±0.582 | 0.092 | 43.75 | 58.4 |  -7.230±1.340  |
+| P0009 | RUN181 | -7.219±0.709 | -3.135±0.308 | 0.015 | 91.06 | 79.2 |  -7.219±0.709  |
+| P0009 | RUN199 | -7.201±3.042 | -3.127±1.321 | 0.144 | 46.62 | 63.4 |  -7.201±3.042  |
+| P0009 | RUN63 | -6.897±1.945 | -2.995±0.845 | 0.092 | 31.27 | 82.4 |  -6.897±1.945  |
+| P0009 | RUN211 | -6.822±1.424 | -2.963±0.619 | 0.059 | 50.53 | 57.2 |  -6.822±1.424  |
+| P0009 | RUN187 | -6.784±0.906 | -2.946±0.394 | 0.015 | 92.85 | 75.6 |  -6.784±0.906  |
+| P0009 | RUN80 | -6.731±1.610 | -2.923±0.699 | 0.144 | 25.04 | 62.8 |  -6.731±1.610  |
+| P0009 | RUN57 | -6.710±1.551 | -2.914±0.673 | 0.144 | 28.94 | 61.7 |  -6.710±1.551  |
+| x12692 | RUN42 | -6.586±0.740 | -2.860±0.321 | 0.074 | 85.22 | 191.1 |  -6.586±0.740  |
+| x12692 | RUN94 | -6.521±1.363 | -2.832±0.592 | 0.074 | 57.78 | 173.0 |  -6.521±1.363  |
+| P0009 | RUN24 | -6.483±1.202 | -2.815±0.522 | 0.092 | 58.42 | 63.4 |  -6.483±1.202  |
+| P0009 | RUN90 | -6.467±1.589 | -2.809±0.690 | 0.440 | 15.55 | 65.7 |  -6.467±1.589  |
+| P0009 | RUN42 | -6.447±1.053 | -2.800±0.457 | 0.074 | 34.44 | 67.1 |  -6.447±1.053  |
+| x12692 | RUN93 | -6.290±1.333 | -2.732±0.579 | 0.115 | 65.55 | 208.5 |  -6.290±1.333  |
+| P0009 | RUN89 | -6.226±1.328 | -2.704±0.577 | 0.225 | 18.82 | 82.4 |  -6.226±1.328  |
+| P0009 | RUN18 | -6.202±1.436 | -2.693±0.623 | 0.012 | 98.47 | 88.1 |  -6.202±1.436  |
+| P0009 | RUN1 | -6.192±1.146 | -2.689±0.498 | 0.010 | 111.64 | 92.8 |  -6.192±1.146  |
+| P0009 | RUN116 | -6.167±1.199 | -2.678±0.521 | 0.010 | 87.28 | 72.4 |  -6.167±1.199  |
+| x12692 | RUN33 | -6.101±1.506 | -2.650±0.654 | 0.092 | 83.01 | 202.4 |  -6.101±1.506  |
+| P0009 | RUN133 | -6.084±1.931 | -2.642±0.839 | 0.024 | 88.74 | 62.2 |  -6.084±1.931  |
+| P0009 | RUN85 | -5.933±4.104 | -2.577±1.782 | 0.225 | 27.56 | 68.2 |  -5.933±4.104  |
+| P0009 | RUN64 | -5.921±2.457 | -2.571±1.067 | 0.225 | 35.52 | 58.9 |  -5.921±2.457  |
+| P0009 | RUN105 | -5.906±2.159 | -2.565±0.938 | 0.019 | 83.3 | 64.4 |  -5.906±2.159  |
+| P0009 | RUN78 | -5.896±1.736 | -2.561±0.754 | 0.180 | 24.77 | 62.8 |  -5.896±1.736  |
+| P0009 | RUN164 | -5.864±1.184 | -2.547±0.514 | 0.024 | 90.04 | 63.8 |  -5.864±1.184  |
+| P0009 | RUN134 | -5.756±0.735 | -2.500±0.319 | 0.024 | 103.38 | 71.9 |  -5.756±0.735  |
+| x12692 | RUN92 | -5.734±2.948 | -2.490±1.280 | 0.225 | 59.24 | 165.0 |  -5.734±2.948  |
+| P0009 | RUN126 | -5.729±1.345 | -2.488±0.584 | 0.019 | 79.92 | 79.5 |  -5.729±1.345  |
+| P0009 | RUN208 | -5.660±1.649 | -2.458±0.716 | 0.092 | 46.43 | 73.3 |  -5.660±1.649  |
+| P0009 | RUN74 | -5.655±1.151 | -2.456±0.500 | 0.225 | 24.43 | 57.6 |  -5.655±1.151  |
+| P0009 | RUN215 | -5.583±3.447 | -2.425±1.497 | 0.074 | 50.46 | 57.2 |  -5.583±3.447  |
+| P0009 | RUN107 | -5.566±1.210 | -2.417±0.526 | 0.012 | 95.02 | 66.9 |  -5.566±1.210  |
+| P0009 | RUN99 | -5.540±1.212 | -2.406±0.526 | 0.687 | 12.52 | 71.4 |  -5.540±1.212  |
+| P0009 | RUN117 | -5.530±0.786 | -2.402±0.341 | 0.010 | 95.66 | 72.6 |  -5.530±0.786  |
+| P0009 | RUN136 | -5.493±1.793 | -2.385±0.779 | 0.019 | 110.88 | 81.7 |  -5.493±1.793  |
+| P0009 | RUN125 | -5.460±1.688 | -2.371±0.733 | 0.030 | 80.34 | 64.7 |  -5.460±1.688  |
+| P0009 | RUN71 | -5.442±1.457 | -2.363±0.633 | 0.144 | 25.97 | 57.5 |  -5.442±1.457  |
+| P0009 | RUN191 | -5.381±1.681 | -2.337±0.730 | 0.015 | 106.29 | 73.5 |  -5.381±1.681  |
+| P0009 | RUN197 | -5.379±1.702 | -2.336±0.739 | 0.059 | 51.71 | 59.8 |  -5.379±1.702  |
+| P0009 | RUN109 | -5.329±2.085 | -2.315±0.905 | 0.024 | 89.83 | 62.7 |  -5.329±2.085  |
+| P0009 | RUN190 | -5.283±1.496 | -2.294±0.650 | 0.012 | 89.02 | 78.4 |  -5.283±1.496  |
+| P0009 | RUN131 | -5.282±1.599 | -2.294±0.694 | 0.015 | 87.59 | 62.0 |  -5.282±1.599  |
+| P0009 | RUN13 | -5.276±1.276 | -2.291±0.554 | 0.024 | 96.08 | 87.3 |  -5.276±1.276  |
+| x12692 | RUN98 | -5.225±0.744 | -2.269±0.323 | 0.074 | 60.99 | 168.1 |  -5.225±0.744  |
+| P0009 | RUN59 | -5.202±1.080 | -2.259±0.469 | 0.144 | 36.62 | 61.0 |  -5.202±1.080  |
+| P0009 | RUN142 | -5.201±2.444 | -2.259±1.061 | 0.030 | 87.92 | 69.5 |  -5.201±2.444  |
+| P0009 | RUN47 | -5.187±1.823 | -2.253±0.792 | 0.115 | 35.31 | 57.5 |  -5.187±1.823  |
+| P0009 | RUN168 | -5.186±1.481 | -2.252±0.643 | 0.030 | 89.96 | 79.3 |  -5.186±1.481  |
+| P0009 | RUN3 | -5.168±1.034 | -2.245±0.449 | 0.074 | 45.29 | 118.2 |  -5.168±1.034  |
+| P0009 | RUN153 | -5.086±1.317 | -2.209±0.572 | 0.010 | 100.05 | 64.2 |  -5.086±1.317  |
+| P0009 | RUN124 | -5.072±1.107 | -2.203±0.481 | 0.015 | 91.69 | 64.7 |  -5.072±1.107  |
+| P0009 | RUN55 | -4.970±1.620 | -2.158±0.704 | 0.115 | 41.42 | 60.4 |  -4.970±1.620  |
+| x12692 | RUN12 | -4.942±2.091 | -2.146±0.908 | 0.059 | 91.95 | 163.0 |  -4.942±2.091  |
+| P0009 | RUN28 | -4.935±1.124 | -2.143±0.488 | 0.074 | 44.23 | 62.0 |  -4.935±1.124  |
+| P0009 | RUN184 | -4.903±1.456 | -2.129±0.632 | 0.012 | 90.46 | 82.4 |  -4.903±1.456  |
+| P0009 | RUN56 | -4.857±1.235 | -2.110±0.536 | 0.074 | 38.18 | 60.3 |  -4.857±1.235  |
+| P0009 | RUN144 | -4.843±1.506 | -2.103±0.654 | 0.019 | 86.62 | 69.1 |  -4.843±1.506  |
+| P0009 | RUN195 | -4.812±0.789 | -2.090±0.343 | 0.047 | 48.94 | 69.8 |  -4.812±0.789  |
+| P0009 | RUN175 | -4.807±4.478 | -2.088±1.945 | 0.015 | 86.54 | 85.3 |  -4.807±4.478  |
+| P0009 | RUN65 | -4.768±2.194 | -2.071±0.953 | 0.180 | 31.83 | 75.3 |  -4.768±2.194  |
+| P0009 | RUN48 | -4.754±2.558 | -2.064±1.111 | 0.092 | 34.46 | 57.3 |  -4.754±2.558  |
+| P0009 | RUN162 | -4.730±0.723 | -2.054±0.314 | 0.006 | 103.28 | 92.5 |  -4.730±0.723  |
+| P0009 | RUN62 | -4.673±2.248 | -2.030±0.976 | 0.144 | 31.43 | 65.6 |  -4.673±2.248  |
+| P0009 | RUN16 | -4.668±1.275 | -2.027±0.554 | 0.019 | 85.15 | 87.4 |  -4.668±1.275  |
+| x12692 | RUN48 | -4.623±0.889 | -2.008±0.386 | 0.059 | 83.12 | 154.2 |  -4.623±0.889  |
+| x12692 | RUN100 | -4.622±0.850 | -2.007±0.369 | 0.074 | 62.68 | 168.3 |  -4.622±0.850  |
+| P0009 | RUN182 | -4.605±0.863 | -2.000±0.375 | 0.024 | 99.95 | 83.1 |  -4.605±0.863  |
+| P0009 | RUN6 | -4.561±1.375 | -1.981±0.597 | 0.180 | 24.51 | 108.5 |  -4.561±1.375  |
+| P0009 | RUN79 | -4.556±1.368 | -1.979±0.594 | 0.180 | 25.72 | 64.7 |  -4.556±1.368  |
+| P0009 | RUN4 | -4.542±1.129 | -1.973±0.490 | 0.144 | 37.31 | 118.6 |  -4.542±1.129  |
+| P0009 | RUN112 | -4.462±2.253 | -1.938±0.978 | 0.012 | 101.25 | 62.6 |  -4.462±2.253  |
+| P0009 | RUN171 | -4.406±2.781 | -1.913±1.208 | 0.015 | 102.3 | 73.2 |  -4.406±2.781  |
+| P0009 | RUN138 | -4.371±1.315 | -1.898±0.571 | 0.030 | 131.92 | 66.8 |  -4.371±1.315  |
+| P0009 | RUN2 | -4.346±1.106 | -1.887±0.480 | 0.047 | 62.63 | 93.1 |  -4.346±1.106  |
+| P0009 | RUN30 | -4.258±1.026 | -1.849±0.446 | 0.059 | 42.02 | 73.6 |  -4.258±1.026  |
+| P0009 | RUN152 | -4.213±0.960 | -1.830±0.417 | 0.012 | 94.94 | 81.4 |  -4.213±0.960  |
+| x12692 | RUN50 | -4.118±0.730 | -1.788±0.317 | 0.092 | 85.89 | 155.0 |  -4.118±0.730  |
+| P0009 | RUN7 | -4.110±1.897 | -1.785±0.824 | 0.144 | 28.6 | 97.0 |  -4.110±1.897  |
+| x12692 | RUN32 | -4.109±1.592 | -1.785±0.691 | 0.047 | 91.13 | 167.6 |  -4.109±1.592  |
+| P0009 | RUN128 | -4.073±0.941 | -1.769±0.409 | 0.024 | 102.73 | 72.3 |  -4.073±0.941  |
+| x12692 | RUN99 | -4.040±0.801 | -1.755±0.348 | 0.074 | 56.15 | 168.1 |  -4.040±0.801  |
+| P0009 | RUN8 | -4.039±2.564 | -1.754±1.113 | 0.144 | 26.63 | 97.3 |  -4.039±2.564  |
+| P0009 | RUN139 | -4.038±1.065 | -1.754±0.462 | 0.030 | 127.3 | 79.7 |  -4.038±1.065  |
+| P0009 | RUN158 | -4.017±1.465 | -1.745±0.636 | 0.006 | 95.12 | 64.6 |  -4.017±1.465  |
+| P0009 | RUN140 | -3.943±0.969 | -1.712±0.421 | 0.019 | 119.59 | 72.3 |  -3.943±0.969  |
+| P0009 | RUN129 | -3.893±1.324 | -1.691±0.575 | 0.019 | 82.46 | 71.5 |  -3.893±1.324  |
+| P0009 | RUN103 | -3.873±1.017 | -1.682±0.442 | 0.012 | 103.97 | 77.7 |  -3.873±1.017  |
+| x12692 | RUN35 | -3.768±1.122 | -1.637±0.487 | 0.092 | 83.78 | 165.6 |  -3.768±1.122  |
+| P0009 | RUN213 | -3.736±3.631 | -1.622±1.577 | 0.047 | 48.21 | 57.1 |  -3.736±3.631  |
+| P0009 | RUN183 | -3.718±1.394 | -1.615±0.605 | 0.030 | 86.23 | 65.7 |  -3.718±1.394  |
+| x12692 | RUN74 | -3.676±1.196 | -1.596±0.519 | 0.115 | 61.55 | 162.6 |  -3.676±1.196  |
+| x12692 | RUN45 | -3.669±1.710 | -1.594±0.743 | 0.074 | 89.52 | 156.1 |  -3.669±1.710  |
+| x12692 | RUN65 | -3.649±1.530 | -1.585±0.664 | 0.092 | 61.13 | 167.8 |  -3.649±1.530  |
+| P0009 | RUN96 | -3.596±0.861 | -1.562±0.374 | 0.352 | 14.57 | 83.1 |  -3.596±0.861  |
+| P0009 | RUN212 | -3.504±1.460 | -1.522±0.634 | 0.074 | 38.77 | 57.3 |  -3.504±1.460  |
+| P0009 | RUN14 | -3.458±1.397 | -1.502±0.607 | 0.019 | 89.42 | 91.2 |  -3.458±1.397  |
+| P0009 | RUN36 | -3.454±1.898 | -1.500±0.824 | 0.092 | 31.16 | 63.7 |  -3.454±1.898  |
+| P0009 | RUN165 | -3.444±1.833 | -1.496±0.796 | 0.012 | 108.5 | 62.5 |  -3.444±1.833  |
+| P0009 | RUN193 | -3.441±4.833 | -1.494±2.099 | 0.038 | 96.6 | 86.8 |  -3.441±4.833  |
+| P0009 | RUN143 | -3.428±1.427 | -1.489±0.620 | 0.024 | 100.96 | 69.1 |  -3.428±1.427  |
+| P0009 | RUN102 | -3.383±0.991 | -1.469±0.430 | 0.012 | 99.64 | 88.9 |  -3.383±0.991  |
+| P0009 | RUN58 | -3.370±0.988 | -1.464±0.429 | 0.180 | 31.37 | 61.3 |  -3.370±0.988  |
+| P0009 | RUN49 | -3.351±1.498 | -1.455±0.651 | 0.225 | 37.34 | 60.1 |  -3.351±1.498  |
+| P0009 | RUN176 | -3.349±0.665 | -1.455±0.289 | 0.015 | 93.49 | 78.0 |  -3.349±0.665  |
+| P0009 | RUN11 | -3.326±2.110 | -1.444±0.916 | 0.030 | 79.91 | 97.2 |  -3.326±2.110  |
+| P0009 | RUN121 | -3.300±2.188 | -1.433±0.950 | 0.019 | 99.84 | 75.0 |  -3.300±2.188  |
+| P0009 | RUN189 | -3.280±1.248 | -1.425±0.542 | 0.012 | 88.01 | 72.3 |  -3.280±1.248  |
+| P0009 | RUN25 | -3.219±1.324 | -1.398±0.575 | 0.059 | 49.21 | 64.5 |  -3.219±1.324  |
+| P0009 | RUN148 | -3.219±1.347 | -1.398±0.585 | 0.038 | 107.44 | 67.5 |  -3.219±1.347  |
+| P0009 | RUN123 | -3.129±1.417 | -1.359±0.615 | 0.019 | 81.9 | 82.0 |  -3.129±1.417  |
+| P0009 | RUN108 | -3.118±2.363 | -1.354±1.026 | 0.019 | 103.39 | 62.8 |  -3.118±2.363  |
+| P0009 | RUN101 | -2.978±0.948 | -1.293±0.412 | 0.008 | 89.59 | 82.8 |  -2.978±0.948  |
+| P0009 | RUN72 | -2.925±1.418 | -1.270±0.616 | 0.225 | 26.87 | 58.0 |  -2.925±1.418  |
+| P0009 | RUN160 | -2.897±1.525 | -1.258±0.662 | 0.012 | 89.43 | 64.2 |  -2.897±1.525  |
+| P0009 | RUN5 | -2.885±0.960 | -1.253±0.417 | 0.092 | 30.68 | 106.5 |  -2.885±0.960  |
+| P0009 | RUN84 | -2.872±1.297 | -1.247±0.563 | 0.115 | 28.32 | 64.6 |  -2.872±1.297  |
+| P0009 | RUN27 | -2.828±1.198 | -1.228±0.520 | 0.047 | 50.0 | 80.9 |  -2.828±1.198  |
+| P0009 | RUN201 | -2.828±0.957 | -1.228±0.415 | 0.030 | 56.85 | 77.1 |  -2.828±0.957  |
+| P0009 | RUN118 | -2.818±2.040 | -1.224±0.886 | 0.047 | 85.66 | 70.2 |  -2.818±2.040  |
+| x12692 | RUN68 | -2.803±1.609 | -1.217±0.699 | 0.180 | 54.65 | 164.5 |  -2.803±1.609  |
+| P0009 | RUN170 | -2.771±1.727 | -1.203±0.750 | 0.012 | 101.38 | 60.5 |  -2.771±1.727  |
+| P0009 | RUN145 | -2.679±1.116 | -1.163±0.485 | 0.030 | 129.56 | 67.1 |  -2.679±1.116  |
+| P0009 | RUN88 | -2.652±4.158 | -1.152±1.806 | 0.281 | 21.6 | 82.7 |  -2.652±4.158  |
+| P0009 | RUN32 | -2.631±0.879 | -1.143±0.382 | 0.059 | 38.58 | 77.9 |  -2.631±0.879  |
+| x12692 | RUN104 | -2.622±0.743 | -1.139±0.323 | 0.047 | 64.46 | 169.8 |  -2.622±0.743  |
+| P0009 | RUN34 | -2.574±1.076 | -1.118±0.467 | 0.115 | 32.73 | 63.6 |  -2.574±1.076  |
+| P0009 | RUN110 | -2.557±6.020 | -1.110±2.614 | 0.024 | 82.74 | 62.9 |  -2.557±6.020  |
+| P0009 | RUN154 | -2.499±1.255 | -1.085±0.545 | 0.012 | 93.43 | 67.4 |  -2.499±1.255  |
+| P0009 | RUN104 | -2.455±0.888 | -1.066±0.386 | 0.019 | 86.53 | 67.4 |  -2.455±0.888  |
+| P0009 | RUN173 | -2.358±1.587 | -1.024±0.689 | 0.024 | 84.32 | 73.2 |  -2.358±1.587  |
+| P0009 | RUN214 | -2.354±2.610 | -1.022±1.134 | 0.059 | 51.23 | 73.1 |  -2.354±2.610  |
+| x12692 | RUN106 | -2.335±0.823 | -1.014±0.357 | 0.092 | 63.82 | 170.9 |  -2.335±0.823  |
+| P0009 | RUN113 | -2.333±1.028 | -1.013±0.446 | 0.015 | 84.81 | 63.7 |  -2.333±1.028  |
+| P0009 | RUN17 | -2.309±1.790 | -1.003±0.778 | 0.019 | 88.49 | 88.0 |  -2.309±1.790  |
+| P0009 | RUN45 | -2.296±1.132 | -0.997±0.492 | 0.074 | 41.79 | 68.8 |  -2.296±1.132  |
+| P0009 | RUN161 | -2.290±1.770 | -0.994±0.769 | 0.012 | 91.71 | 80.8 |  -2.290±1.770  |
+| x12692 | RUN52 | -2.277±0.507 | -0.989±0.220 | 0.059 | 95.66 | 176.3 |  -2.277±0.507  |
+| P0009 | RUN135 | -2.223±0.718 | -0.965±0.312 | 0.015 | 113.13 | 89.4 |  -2.223±0.718  |
+| P0009 | RUN141 | -2.158±2.000 | -0.937±0.869 | 0.030 | 84.89 | 69.5 |  -2.158±2.000  |
+| P0009 | RUN93 | -2.071±1.551 | -0.899±0.674 | 0.687 | 13.61 | 71.0 |  -2.071±1.551  |
+| P0009 | RUN92 | -2.066±1.248 | -0.897±0.542 | 0.550 | 14.05 | 66.2 |  -2.066±1.248  |
+| x12692 | RUN96 | -2.042±0.673 | -0.887±0.292 | 0.092 | 64.05 | 170.5 |  -2.042±0.673  |
+| P0009 | RUN120 | -2.015±2.740 | -0.875±1.190 | 0.059 | 97.53 | 84.4 |  -2.015±2.740  |
+| P0009 | RUN19 | -2.000±1.517 | -0.869±0.659 | 0.024 | 87.71 | 93.0 |  -2.000±1.517  |
+| P0009 | RUN202 | -1.977±0.754 | -0.859±0.328 | 0.038 | 51.74 | 77.2 |  -1.977±0.754  |
+| P0009 | RUN209 | -1.867±1.917 | -0.811±0.833 | 0.059 | 53.44 | 72.9 |  -1.867±1.917  |
+| P0009 | RUN69 | -1.778±1.766 | -0.772±0.767 | 0.180 | 25.35 | 57.9 |  -1.778±1.766  |
+| P0009 | RUN204 | -1.777±0.885 | -0.772±0.385 | 0.038 | 49.42 | 76.3 |  -1.777±0.885  |
+| P0009 | RUN70 | -1.729±1.496 | -0.751±0.650 | 0.180 | 25.18 | 58.0 |  -1.729±1.496  |
+| x12692 | RUN108 | -1.685±0.949 | -0.732±0.412 | 0.144 | 59.89 | 183.7 |  -1.685±0.949  |
+| P0009 | RUN203 | -1.659±1.165 | -0.720±0.506 | 0.038 | 51.85 | 76.3 |  -1.659±1.165  |
+| x12692 | RUN89 | -1.555±0.697 | -0.676±0.303 | 0.115 | 61.19 | 212.6 |  -1.555±0.697  |
+| P0009 | RUN163 | -1.526±1.671 | -0.663±0.726 | 0.015 | 100.15 | 65.8 |  -1.526±1.671  |
+| x12692 | RUN85 | -1.364±0.540 | -0.592±0.235 | 0.115 | 60.81 | 191.0 |  -1.364±0.540  |
+| P0009 | RUN41 | -1.360±0.813 | -0.591±0.353 | 0.115 | 44.5 | 80.3 |  -1.360±0.813  |
+| P0009 | RUN210 | -1.349±2.085 | -0.586±0.906 | 0.074 | 46.99 | 71.9 |  -1.349±2.085  |
+| P0009 | RUN188 | -1.316±1.590 | -0.572±0.691 | 0.010 | 95.82 | 74.5 |  -1.316±1.590  |
+| P0009 | RUN166 | -1.314±1.472 | -0.570±0.639 | 0.015 | 116.85 | 79.0 |  -1.314±1.472  |
+| P0009 | RUN51 | -1.291±1.846 | -0.561±0.802 | 0.180 | 41.36 | 60.0 |  -1.291±1.846  |
+| P0009 | RUN31 | -1.230±0.865 | -0.534±0.376 | 0.059 | 40.08 | 73.8 |  -1.230±0.865  |
+| P0009 | RUN98 | -1.184±0.815 | -0.514±0.354 | 0.440 | 13.97 | 74.0 |  -1.184±0.815  |
+| P0009 | RUN10 | -1.178±1.776 | -0.512±0.771 | 0.012 | 97.48 | 97.2 |  -1.178±1.776  |
+| P0009 | RUN174 | -1.170±2.311 | -0.508±1.004 | 0.030 | 97.85 | 54.7 |  -1.170±2.311  |
+| P0009 | RUN172 | -1.052±1.629 | -0.457±0.707 | 0.030 | 81.61 | 73.6 |  -1.052±1.629  |
+| P0009 | RUN157 | -1.026±1.723 | -0.446±0.748 | 0.019 | 78.76 | 64.3 |  -1.026±1.723  |
+| P0009 | RUN29 | -0.993±1.019 | -0.431±0.443 | 0.038 | 46.87 | 73.6 |  -0.993±1.019  |
+| P0009 | RUN146 | -0.974±1.178 | -0.423±0.512 | 0.038 | 127.91 | 67.1 |  -0.974±1.178  |
+| P0009 | RUN100 | -0.941±0.942 | -0.409±0.409 | 0.015 | 99.11 | 74.7 |  -0.941±0.942  |
+| P0009 | RUN39 | -0.843±1.072 | -0.366±0.466 | 0.144 | 38.25 | 62.8 |  -0.843±1.072  |
+| x12692 | RUN105 | -0.707±0.703 | -0.307±0.305 | 0.074 | 63.39 | 168.7 |  -0.707±0.703  |
+| P0009 | RUN137 | -0.599±0.953 | -0.260±0.414 | 0.015 | 95.87 | 67.4 |  -0.599±0.953  |
+| P0009 | RUN68 | -0.589±1.136 | -0.256±0.493 | 0.115 | 29.18 | 70.7 |  -0.589±1.136  |
+| P0009 | RUN95 | -0.534±1.076 | -0.232±0.467 | 0.440 | 12.24 | 84.0 |  -0.534±1.076  |
+| P0009 | RUN66 | -0.511±1.086 | -0.222±0.472 | 0.144 | 26.06 | 74.8 |  -0.511±1.086  |
+| P0009 | RUN179 | -0.427±1.195 | -0.185±0.519 | 0.010 | 95.66 | 66.7 |  -0.427±1.195  |
+| P0009 | RUN67 | -0.419±3.644 | -0.182±1.582 | 0.144 | 29.46 | 66.1 |  -0.419±3.644  |
+| P0009 | RUN115 | -0.352±1.070 | -0.153±0.465 | 0.015 | 85.61 | 64.8 |  -0.352±1.070  |
+| P0009 | RUN114 | -0.300±1.058 | -0.130±0.459 | 0.012 | 85.76 | 62.4 |  -0.300±1.058  |
+| P0009 | RUN169 | -0.225±1.577 | -0.098±0.685 | 0.012 | 108.4 | 60.1 |  -0.225±1.577  |
+| P0009 | RUN52 | -0.191±1.569 | -0.083±0.681 | 0.144 | 35.77 | 60.2 |  -0.191±1.569  |
+| x12692 | RUN79 | -0.085±1.109 | -0.037±0.482 | 0.144 | 54.74 | 148.5 |  -0.085±1.109  |
+| x12692 | RUN103 | 0.269±5.993 | 0.117±2.603 | 0.180 | 59.67 | 176.7 |  0.269±5.993  |
+| P0009 | RUN40 | 0.339±0.999 | 0.147±0.434 | 0.144 | 42.87 | 63.2 |  0.339±0.999  |
+| P0009 | RUN43 | 0.348±1.240 | 0.151±0.539 | 0.115 | 35.75 | 70.4 |  0.348±1.240  |
+| P0009 | RUN87 | 0.452±1.946 | 0.196±0.845 | 0.180 | 27.12 | 81.9 |  0.452±1.946  |
+| P0009 | RUN46 | 0.495±0.809 | 0.215±0.351 | 0.074 | 43.92 | 82.5 |  0.495±0.809  |
+| P0009 | RUN167 | 0.549±1.952 | 0.238±0.848 | 0.038 | 92.08 | 79.6 |  0.549±1.952  |
+| P0009 | RUN94 | 0.616±3.646 | 0.268±1.583 | 0.352 | 14.63 | 73.3 |  0.616±3.646  |
+| P0009 | RUN82 | 0.717±2.009 | 0.311±0.873 | 0.144 | 28.48 | 61.8 |  0.717±2.009  |
+| P0009 | RUN206 | 0.775±1.583 | 0.336±0.688 | 0.047 | 51.1 | 77.8 |  0.775±1.583  |
+| P0009 | RUN91 | 0.979±1.598 | 0.425±0.694 | 0.550 | 13.23 | 65.7 |  0.979±1.598  |
+| P0009 | RUN44 | 1.148±1.038 | 0.499±0.451 | 0.115 | 41.38 | 71.4 |  1.148±1.038  |
+| P0009 | RUN111 | 1.170±2.777 | 0.508±1.206 | 0.030 | 96.31 | 62.5 |  1.170±2.777  |
+| x12692 | RUN97 | 1.513±0.711 | 0.657±0.309 | 0.092 | 55.81 | 169.2 |  1.513±0.711  |
+| P0009 | RUN180 | 1.562±1.554 | 0.678±0.675 | 0.030 | 120.76 | 69.5 |  1.562±1.554  |
+| x12692 | RUN34 | 1.628±1.231 | 0.707±0.535 | 0.115 | 82.67 | 167.1 |  1.628±1.231  |
+| P0009 | RUN207 | 1.748±1.582 | 0.759±0.687 | 0.047 | 47.46 | 72.7 |  1.748±1.582  |
+| P0009 | RUN61 | 1.820±1.366 | 0.791±0.593 | 0.225 | 29.99 | 60.2 |  1.820±1.366  |
+| P0009 | RUN26 | 1.907±1.090 | 0.828±0.473 | 0.059 | 42.99 | 71.7 |  1.907±1.090  |
+| P0009 | RUN151 | 2.031±1.197 | 0.882±0.520 | 0.038 | 101.19 | 63.7 |  2.031±1.197  |
+| P0009 | RUN81 | 2.051±2.712 | 0.891±1.178 | 0.180 | 24.75 | 62.9 |  2.051±2.712  |
+| P0009 | RUN75 | 2.781±1.281 | 1.208±0.556 | 0.225 | 24.76 | 73.8 |  2.781±1.281  |
+| x12692 | RUN41 | 2.810±1.510 | 1.221±0.656 | 0.092 | 79.63 | 165.2 |  2.810±1.510  |
+| P0009 | RUN159 | 3.050±1.304 | 1.325±0.566 | 0.019 | 95.6 | 64.1 |  3.050±1.304  |
+| P0009 | RUN9 | 3.104±1.202 | 1.348±0.522 | 0.440 | 15.83 | 122.6 |  3.104±1.202  |
+| P0009 | RUN122 | 3.625±4.100 | 1.574±1.781 | 0.047 | 79.32 | 68.3 |  3.625±4.100  |
+| P0009 | RUN53 | 3.882±1.397 | 1.686±0.607 | 0.144 | 41.32 | 59.7 |  3.882±1.397  |
+| P0009 | RUN83 | 4.655±1.705 | 2.022±0.740 | 0.115 | 28.72 | 64.1 |  4.655±1.705  |
+| P0009 | RUN127 | 7.074±2.074 | 3.072±0.901 | 0.059 | 100.22 | 61.3 |  7.074±2.074  |
