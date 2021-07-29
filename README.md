@@ -13,7 +13,7 @@ Department of Chemistry, Temple University
 Of these, simulations were completed for 377 systems:
 
 | Receptor | Run | Free Energy (RT) | Uncertainty (RT) | log10 Kd (M) | Uncertainty (M) | WL Increment | Complex (ns) | Ligand (ns) | Postera Link | 
-| -------- | --- | ---------------- | ---------------- | ------------ | --------------- | ------------ | ------------ |
+| -------- | --- | ---------------- | ---------------- | ------------ | --------------- | ------------ | ------------ | ----------- | ------------ |
 | x12692 | RUN47 | -36.550 | 8.664 | -15.873 | 3.763 | 0.059 | 95.23 | 208.3 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/55">JUL-TUD-06b2044f-55</a>  |
 | x12692 | RUN23 | -34.051 | 3.662 | -14.788 | 1.590 | 0.030 | 99.2 | 184.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/50">JUL-TUD-06b2044f-50</a>  |
 | x12692 | RUN111 | -33.223 | 6.372 | -14.429 | 2.767 | 0.144 | 57.47 | 161.7 |  <a href="https://covid.postera.ai/covid/submissions/06b2044f-e535-4a94-acfd-a6bd7604ec03/108">JUL-TUD-06b2044f-108</a>  |
